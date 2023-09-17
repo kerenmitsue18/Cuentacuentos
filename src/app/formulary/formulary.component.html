@@ -1,0 +1,33 @@
+<mat-stepper #stepper>
+    <mat-step  [stepControl]="firstFormGroup" errorMessage="El tipo de cuento es requerido.">
+      <form [formGroup]="firstFormGroup">
+        <ng-template matStepLabel  matStepperIcon="book">Tipo de cuento</ng-template>
+         <app-typeStories (type)="recibirvalor($event)"></app-typeStories>
+        <div>
+          <button mat-raised-button color="primary" matStepperNext>Next</button>
+        </div>
+      </form>
+    </mat-step>
+    <mat-step   [stepControl]="secondFormGroup" errorMessage="Los personajes son requeridos">
+      <form [formGroup]="secondFormGroup">
+        <ng-template matStepLabel matStepperIcon="profile">Personajes a utilizar</ng-template>
+        <mat-form-field>
+          <mat-label>Personajes</mat-label>
+          <input matInput placeholder="Ex. 1 Main St, New York, NY" formControlName="secondCtrl"
+                 required>
+        </mat-form-field>
+        <div>
+          <button mat-raised-button color="primary" matStepperPrevious>Back</button>
+          <button mat-raised-button color="primary" matStepperNext>Next</button>
+        </div>
+      </form>
+    </mat-step>
+    <mat-step   >
+      <ng-template matStepLabel matStepperIcon="book">Tema</ng-template>
+      <div>
+        <button mat-raised-button color="primary" matStepperPrevious>Back</button>
+        <button mat-raised-button color="primary" (click)="stepper.reset()">Reset</button>
+      </div>
+    </mat-step>
+  </mat-stepper>
+  
