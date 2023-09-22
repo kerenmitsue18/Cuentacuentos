@@ -1,5 +1,5 @@
-import { FormBuilder, AbstractControl, FormGroup, FormControl } from '@angular/forms';
-import { Component } from "@angular/core";
+import { FormBuilder, AbstractControl, FormGroup, FormControl, Validators } from '@angular/forms';
+import { Component, OnInit  } from "@angular/core";
 import { TipoCuento } from 'src/models/TipoCuento';
 import { Character } from 'src/models/Character';
 
@@ -9,41 +9,31 @@ import { Character } from 'src/models/Character';
   styleUrls: ['./formulary.component.css']
 })
 
-export class formulary {
+export class formulary{
 
   value: any = null;
   firstFormGroup: FormGroup;
   secondFormGroup: FormGroup;
+  thirthFormGroup: FormGroup;
 
   constructor(private _formBuilder: FormBuilder) { 
 
     
     this.firstFormGroup = this._formBuilder.group({
-      //typeSelected: [null, this.validateTipoCuento()], //recolecta el cuento
-      typeSelected: new FormControl('', this.validateTipoCuento())
+      typeSelected: new FormControl(null, Validators.required)
     });
     
     this.secondFormGroup = this._formBuilder.group({
-      //characters: [[{}, {}, {}], [this.validateCharacterArray()]]}
-      characters: new FormControl('', this.validateCharacterArray)
+      characters: new FormControl([], this.validateCharacterArray())
+    });
+    this.thirthFormGroup = this._formBuilder.group({
+      topicSelected: new FormControl(null, Validators.required)
     });
 
 
   }
 
-
-  //validación de que sea un TipoCuento
-  validateTipoCuento(){
-    return (control: AbstractControl): { [key: string]: any } | null => {
-      const tipoCuento: TipoCuento = control.value;
-      if (!(tipoCuento instanceof TipoCuento)) {
-        return { invalidCuento: true };
-      }
-      return null;
-    };
-  }
-
-  // Validacion de que sean tres personajes 
+ // Validacion de que sean tres personajes 
   validateCharacterArray() {
 
     return (control: AbstractControl): { [key: string]: any } | null => {
@@ -65,15 +55,12 @@ export class formulary {
     };
   }
 
-
-  getType(valor: TipoCuento) {
-    this.firstFormGroup.controls['typeSelected'].setValue(valor);
-    console.log("Recibi el valor " + valor.nombre);
+  Generate(){
+    console.log("los datos requeridos son: ");
+    console.log(this.firstFormGroup.value);
+    console.log(this.secondFormGroup.value);
+    console.log(this.thirthFormGroup.value);
   }
 
-  getCharacters(valor: Array<Character>) {
-    this.secondFormGroup.controls['characters'].setValue(valor);
-    console.log("Recibi como personajes " + valor);
-  }
 
 }

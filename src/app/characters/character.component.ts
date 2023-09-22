@@ -1,5 +1,5 @@
 import { NodeWithI18n } from "@angular/compiler";
-import { Component, Output, EventEmitter, Input } from "@angular/core";
+import { Component, Input } from "@angular/core";
 import { Character, characters } from "src/models/Character";
 import { FormGroup, FormBuilder  } from '@angular/forms';
 

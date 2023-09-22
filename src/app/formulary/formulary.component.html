@@ -1,25 +1,25 @@
 <mat-stepper #stepper>
-    <mat-step  [stepControl]="firstFormGroup" errorMessage="El tipo de cuento es requerido.">
-        <ng-template matStepLabel  matStepperIcon="book">Tipo de cuento</ng-template>
-         <app-typeStories [formGroup]="firstFormGroup"></app-typeStories>
-        <div>
-          <button class="button_stepper" color="primary" matStepperNext>Next</button>
-        </div>
-    </mat-step>
-    <mat-step [stepControl]="secondFormGroup" errorMessage="Los personajes son requeridos">
-        <ng-template matStepLabel matStepperIcon="profile">Personajes a utilizar</ng-template>
-        <app-characters [formGroup]="secondFormGroup"></app-characters>
-        <div>
-          <button class="button_stepper" color="primary" matStepperPrevious>Back</button>
-          <button class="button_stepper" color="primary" matStepperNext>Next</button>
-        </div>
-    </mat-step>
-    <mat-step>
-      <ng-template matStepLabel matStepperIcon="book">Tema</ng-template>
-      <div>
-        <button class="button_stepper" color="primary" matStepperPrevious>Back</button>
-        <button class="button_stepper" color="primary" (click)="stepper.reset()">Reset</button>
-      </div>
-    </mat-step>
-  </mat-stepper>
-  
+  <mat-step [stepControl]="firstFormGroup" errorMessage="El tipo de cuento es requerido.">
+    <ng-template matStepLabel matStepperIcon="book">Tipo de cuento</ng-template>
+    <app-typeStories [formGroup]="firstFormGroup"></app-typeStories>
+    <div>
+      <button class="button_stepper" color="primary" matStepperNext>Next</button>
+    </div>
+  </mat-step>
+  <mat-step [stepControl]="secondFormGroup" errorMessage="Los personajes son requeridos">
+    <ng-template matStepLabel matStepperIcon="profile">Personajes a utilizar</ng-template>
+    <app-characters [formGroup]="secondFormGroup"></app-characters>
+    <div>
+      <button class="button_stepper" color="primary" matStepperPrevious>Back</button>
+      <button class="button_stepper" color="primary" matStepperNext>Next</button>
+    </div>
+  </mat-step>
+  <mat-step [stepControl]="thirthFormGroup" errorMessage="El tema es requerido">
+    <ng-template matStepLabel matStepperIcon="profile">Tema a abordar</ng-template>
+    <app-topic [formGroup]="thirthFormGroup"></app-topic>
+    <div>
+      <button class="button_stepper" color="primary" matStepperPrevious>Back</button>
+      <button class="button_stepper" color="primary" matStepperNext (click)="Generate()">Next</button>
+    </div>
+  </mat-step>
+</mat-stepper>

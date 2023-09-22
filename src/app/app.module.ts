@@ -15,13 +15,15 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import { typeStoriesComponent } from './typeStories/typeStories.component';
 import { formulary } from './formulary/formulary.component';
 import { Characters } from './characters/character.component';
+import { TopicComponent } from './topic/topic.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     typeStoriesComponent, 
     Characters,
-    formulary
+    formulary,
+    TopicComponent
   ],
   imports: [
     BrowserModule,
