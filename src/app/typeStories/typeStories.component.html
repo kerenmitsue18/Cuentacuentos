@@ -1,27 +1,21 @@
 <!--------------------------SELECCION DE UN TIPO DE CUENTO---------------------->
-<div id="card-area">
+<div id="card-area" [formGroup]="formGroup">
     <div class="wrapper">
         <div class="titulo">Selecciona un tipo de cuento:</div>
-        <form>
-            <div class="box-area">
-                <div class="box_item" *ngFor="let tipo of tipos">
-                    <label class="option_item" (click)="changeSelected(tipo)">
-                        <input type="checkbox" class="card_checkbox" formControlName="topicSelected" [class.seleccionado]="tipo.seleccionado"
-                            [checked]="tipo.seleccionado">
-                        <div class="box">
-                            <img alt="" src={{tipo.urlImage}}>
-                            <div class="overlay">
-                                <h3>{{tipo.nombre}}</h3>
-                                <p>{{tipo.descripcion}}</p>
-                            </div>
+        <div class="box-area">
+            <div class="box_item" *ngFor="let tipo of tipos">
+                <label class="option_item" (click)="changeSelected(tipo)">
+                    <input type="checkbox" class="card_checkbox" formControlName="typeSelected"
+                        [class.seleccionado]="tipo.seleccionado" [checked]="tipo.seleccionado">
+                    <div class="box">
+                        <img alt="" src={{tipo.urlImage}}>
+                        <div class="overlay">
+                            <h3>{{tipo.nombre}}</h3>
+                            <p>{{tipo.descripcion}}</p>
                         </div>
-                    </label>
-                </div>
-
+                    </div>
+                </label>
             </div>
-        </form>
-
-
-
+        </div>
     </div>
 </div>

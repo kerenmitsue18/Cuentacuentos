@@ -1,6 +1,7 @@
 import { style } from "@angular/animations";
-import { Component, Output, EventEmitter } from "@angular/core";
-import { TipoCuento, tipos } from "src/models/TipoCuento";
+import { Component, Output, EventEmitter, Input } from "@angular/core";
+import { TipoCuento, tipos } from "../../models/TipoCuento";
+import { FormBuilder, FormGroup } from "@angular/forms";
 
 
 @Component({
@@ -11,10 +12,16 @@ import { TipoCuento, tipos } from "src/models/TipoCuento";
 
 export class typeStoriesComponent {
 
-  @Output() type = new EventEmitter<any>();
+  @Input() formGroup: FormGroup;
   typeSelected: TipoCuento = {} as TipoCuento;
 
   tipos = tipos;
+
+
+  constructor(private _formBuilder: FormBuilder){
+    this.formGroup = this._formBuilder.group({});
+  }
+
   changeSelected(elemento: any): void {
     if (this.typeSelected === elemento) {
       elemento.seleccionado = !elemento.seleccionado
@@ -27,6 +34,5 @@ export class typeStoriesComponent {
       this.typeSelected = elemento;
     }
     console.log(this.typeSelected.nombre);
-    this.type.emit(this.typeSelected);
   }
 }

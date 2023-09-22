@@ -14,10 +14,13 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 /* Importar los componentes */
 import { typeStoriesComponent } from './typeStories/typeStories.component';
 import { formulary } from './formulary/formulary.component';
+import { Characters } from './characters/character.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     typeStoriesComponent, 
+    Characters,
     formulary
   ],
   imports: [
@@ -40,4 +43,6 @@ import { formulary } from './formulary/formulary.component';
   ],
   bootstrap: [AppComponent]
 })
+
+
 export class AppModule { }
