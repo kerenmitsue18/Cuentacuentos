@@ -49,3 +49,50 @@
 	transform: scale(0.95) rotateZ(1.7deg);
 	border-color: orangered;
   }
+
+
+  /*************** COLOCA AQUI ************/
+  /* Cosmetics styles */ 
+body {
+	margin: .5em;
+	background: lightgrey;
+  }
+  
+  .cards {
+	display: flex;
+	flex-wrap: wrap;
+  }
+  
+  .card {
+	flex: 1 0 20%;
+	position: relative;
+	margin: .5em;
+	padding: 2em;
+	min-height: 4em;
+	background: white;
+	border: 3px solid grey;
+  }
+  
+  .active { border-color: orangered; }
+  
+  /* This is where the magic happens */
+  input[type="checkbox"] {
+	position: absolute;
+	top: .5em;
+	left:.5em;
+  }
+  
+  @media (pointer: coarse) { 
+	input[type="checkbox"] {
+	  height: 2em;
+	  width: 2em;
+	}
+  }
+  
+  /* Use z-index to make it accessible to keyboard navigation */
+  @media (hover: hover) {
+				input[type="checkbox"] { z-index: -1 }
+	.card:hover input[type="checkbox"],
+				input[type="checkbox"]:focus,
+				input[type="checkbox"]:checked { z-index: auto }
+  }

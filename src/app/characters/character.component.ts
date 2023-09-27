@@ -1,7 +1,7 @@
 import { NodeWithI18n } from "@angular/compiler";
 import { Component, Input } from "@angular/core";
 import { Character, characters } from "src/models/Character";
-import { FormGroup, FormBuilder  } from '@angular/forms';
+import { FormArray, FormBuilder } from '@angular/forms';
 
 @Component({
   selector: 'app-characters',
@@ -11,10 +11,10 @@ import { FormGroup, FormBuilder  } from '@angular/forms';
 
 export class Characters {
 
-  @Input() formGroup: FormGroup;
+  @Input() formGroup: FormArray;
 
-  constructor(private _formBuilder: FormBuilder){
-    this.formGroup = this._formBuilder.group({});
+  constructor(private _formBuilder: FormBuilder) {
+    this.formGroup = this._formBuilder.array([]);
   }
 
   characters = characters;
@@ -25,6 +25,7 @@ export class Characters {
     if (e.target.checked) {
       if (this.selectedItems.length < this.maxItems) {
         this.selectedItems.push(character);
+        this.formGroup.push(character);
       } else {
         e.preventDefault();
         e.target.checked = false;
@@ -32,8 +33,17 @@ export class Characters {
     } else {
       this.selectedItems = this.selectedItems.filter(m => m != character);
     }
-
+    //Asignar selectedItems al FormControl en el FormGroup
+    if (this.formGroup.get('selectedItems')) {
+      //this.formGroup.get('selectedItems').setValue(this.selectedItems);
     console.log(this.selectedItems);
+    
+    }
 
+    
   }
+
+
+
+
 }

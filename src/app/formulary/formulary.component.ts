@@ -1,7 +1,10 @@
-import { FormBuilder, AbstractControl, FormGroup, FormControl, Validators } from '@angular/forms';
+import { FormBuilder, AbstractControl, FormGroup, FormControl, Validators, ValidatorFn, FormArray} from '@angular/forms';
 import { Component, OnInit  } from "@angular/core";
 import { TipoCuento } from 'src/models/TipoCuento';
 import { Character } from 'src/models/Character';
+import { Prompt } from 'src/models/Prompt';
+import { typeStoriesComponent } from '../typeStories/typeStories.component';
+import { Topic } from 'src/models/Topic';
 
 @Component({
   selector: 'app-formulary',
@@ -13,53 +16,43 @@ export class formulary{
 
   value: any = null;
   firstFormGroup: FormGroup;
-  secondFormGroup: FormGroup;
+  secondFormGroup: FormArray;
   thirthFormGroup: FormGroup;
+  maxItems:number = 3;
 
   constructor(private _formBuilder: FormBuilder) { 
 
-    
     this.firstFormGroup = this._formBuilder.group({
       typeSelected: new FormControl(null, Validators.required)
-    });
-    
-    this.secondFormGroup = this._formBuilder.group({
-      characters: new FormControl([], this.validateCharacterArray())
+    });    
+    this.secondFormGroup = this._formBuilder.array({
+      characters: new FormControl([], [this.validateCharacterArray(this.maxItems)])
     });
     this.thirthFormGroup = this._formBuilder.group({
       topicSelected: new FormControl(null, Validators.required)
     });
-
-
   }
 
  // Validacion de que sean tres personajes 
-  validateCharacterArray() {
-
+  validateCharacterArray(maxItems: number): ValidatorFn{
     return (control: AbstractControl): { [key: string]: any } | null => {
-      const characters: Character[] = control.value;
-
-      // Verificar que haya exactamente 3 elementos en el arreglo
-      if (characters.length !== 3) {
-        return { invalidLength: true };
+      const selectedItems = control.value as Character[];
+      if (selectedItems && selectedItems.length === maxItems) {
+        return null; // La validación pasa si la longitud es igual a maxItems (3)
+      } else {
+        return { invalidLength: true }; // La validación falla si la longitud no es igual a maxItems
       }
-
-      // Verificar que cada elemento sea una instancia de Character
-      for (const character of characters) {
-        if (!(character instanceof Character)) {
-          return { invalidCharacter: true };
-        }
-      }
-
-      return null; // Validación exitosa
     };
   }
 
+
   Generate(){
     console.log("los datos requeridos son: ");
-    console.log(this.firstFormGroup.value);
-    console.log(this.secondFormGroup.value);
-    console.log(this.thirthFormGroup.value);
+    var tipo_cuento = this.firstFormGroup.value['typeSelected'] as TipoCuento
+    var topico = this.thirthFormGroup.value['topicSelected'] as Topic
+    var personajes = this.secondFormGroup.value['characters'] as Character[]
+
+    prompt: new Prompt(tipo_cuento, this.secondFormGroup.value, topico).getPrompt();
   }
 
 
