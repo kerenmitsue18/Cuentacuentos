@@ -1,7 +1,7 @@
 import { NodeWithI18n } from "@angular/compiler";
-import { Component, Input } from "@angular/core";
+import { Component, Input, Output, EventEmitter, OnInit } from "@angular/core";
 import { Character, characters } from "src/models/Character";
-import { FormArray, FormBuilder } from '@angular/forms';
+import { Form, FormArray, FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-characters',
@@ -9,41 +9,35 @@ import { FormArray, FormBuilder } from '@angular/forms';
   styleUrls: ['./character.component.css']
 })
 
-export class Characters {
+export class Characters implements OnInit{
 
-  @Input() formGroup: FormArray;
+  @Input() characterFormArray: FormArray;
+  @Output() selectedCharactersChange = new EventEmitter<Character[]>();
+  characters: Character[] = characters;
+  maxItems = 3;
 
   constructor(private _formBuilder: FormBuilder) {
-    this.formGroup = this._formBuilder.array([]);
+    this.characterFormArray = this._formBuilder.array([]);
   }
 
-  characters = characters;
-  maxItems = 3;
-  selectedItems = new Array<Character>();
 
-  changeSelected(e: any, character: Character) {
-    if (e.target.checked) {
-      if (this.selectedItems.length < this.maxItems) {
-        this.selectedItems.push(character);
-        this.formGroup.push(character);
-      } else {
-        e.preventDefault();
-        e.target.checked = false;
+  ngOnInit(): void {
+    this.characterFormArray.clear();
+     // Utiliza FormBuilder.control para crear instancias de FormControl
+     this.characters.forEach(() => {
+      this.characterFormArray.push(this._formBuilder.control(false));
+    });
+  }
+ 
+  updateSelectedCharacters(): void {
+    const selectedCharacters: Character[] = [];
+    const characterArray = this.characterFormArray.get('selectedItems') as FormArray;
+    characterArray.controls.forEach((control, index) => {
+      if (control.value) {
+        selectedCharacters.push(this.characters[index]);
       }
-    } else {
-      this.selectedItems = this.selectedItems.filter(m => m != character);
-    }
-    //Asignar selectedItems al FormControl en el FormGroup
-    if (this.formGroup.get('selectedItems')) {
-      //this.formGroup.get('selectedItems').setValue(this.selectedItems);
-    console.log(this.selectedItems);
-    
-    }
-
-    
+    });
+    this.selectedCharactersChange.emit(selectedCharacters);
   }
-
-
-
 
 }

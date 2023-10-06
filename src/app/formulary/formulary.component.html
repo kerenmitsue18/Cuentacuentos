@@ -8,7 +8,7 @@
   </mat-step>
   <mat-step [stepControl]="secondFormGroup" errorMessage="Los personajes son requeridos">
     <ng-template matStepLabel matStepperIcon="profile">Personajes a utilizar</ng-template>
-    <app-characters [formGroup]="secondFormGroup"></app-characters>
+    <app-characters [characterFormArray]="selectedItemsFormArray" (selectedCharactersChange)="onSelectedCharactersChange($event)" ></app-characters>
     <div>
       <button class="button_stepper" color="primary" matStepperPrevious>Back</button>
       <button class="button_stepper" color="primary" matStepperNext>Next</button>

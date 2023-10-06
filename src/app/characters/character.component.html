@@ -1,19 +1,19 @@
-<div [formGroup]="formGroup">
-    <div class="wrapper">
-        <div class="titulo">Personajes del cuento: </div>
-        <div class="cards">
-            <div class="card" *ngFor="let character of characters">
-                <input type="checkbox" [value]="character" (click)="changeSelected($event,character)"
-                    formControlName="characters" [class.seleccionado]="character.seleccionado" />
-                <img alt="" style="width: 100px;" src={{character.urlImage}}>
-                <p>{{character.nombre}}</p>
+<div class="wrapper" formArrayName="selectedItems">
+    <div class="titulo">Personajes del cuento: </div>
+    <div class="cards">
+        <ng-container *ngFor="let control of characterFormArray.controls; let i = index">
+            <div class="card">
+                <input type="checkbox" [value]="characters[i].id"
+                    [formControl]="control" (ngModel)="characters[i].seleccionado" />
+                <img alt="" style="width: 100px;" src={{characters[i].urlImage}}>
+                <p>{{characters[i].nombre}}</p>
             </div>
-
-        </div>
+        </ng-container>
     </div>
 </div>
 
-<script>
+<!---
+    <script>
     $(document).ready(function () {
         // Card Multi Select
         $('input[type=checkbox]').click(function () {
@@ -24,3 +24,4 @@
         });
     });
 </script>
+-->

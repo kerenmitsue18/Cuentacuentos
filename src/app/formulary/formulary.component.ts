@@ -16,17 +16,18 @@ export class formulary{
 
   value: any = null;
   firstFormGroup: FormGroup;
-  secondFormGroup: FormArray;
+  secondFormGroup: FormGroup;
   thirthFormGroup: FormGroup;
   maxItems:number = 3;
+  selectedCharacters: Character[] = [];
 
   constructor(private _formBuilder: FormBuilder) { 
 
     this.firstFormGroup = this._formBuilder.group({
       typeSelected: new FormControl(null, Validators.required)
     });    
-    this.secondFormGroup = this._formBuilder.array({
-      characters: new FormControl([], [this.validateCharacterArray(this.maxItems)])
+    this.secondFormGroup = this._formBuilder.group({
+      selectedItems:  this._formBuilder.array([])
     });
     this.thirthFormGroup = this._formBuilder.group({
       topicSelected: new FormControl(null, Validators.required)
@@ -45,6 +46,15 @@ export class formulary{
     };
   }
 
+  get selectedItemsFormArray(): FormArray {
+    return this.secondFormGroup.get('selectedItems') as FormArray;
+  }
+  
+  onSelectedCharactersChange(selectedCharacters: Character[]): void {
+    this.selectedCharacters = selectedCharacters;
+  }
+
+
 
   Generate(){
     console.log("los datos requeridos son: ");
@@ -54,6 +64,4 @@ export class formulary{
 
     prompt: new Prompt(tipo_cuento, this.secondFormGroup.value, topico).getPrompt();
   }
-
-
 }
