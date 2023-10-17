@@ -1,15 +1,16 @@
-<div class="wrapper" formArrayName="selectedItems">
-    <div class="titulo">Personajes del cuento: </div>
-    <div class="cards">
-        <ng-container *ngFor="let control of characterFormArray.controls; let i = index">
+<div [formGroup] = "formulario">
+    <div class="wrapper">
+        <div class="titulo">Personajes del cuento: </div>
+        <div class="cards" *ngFor="let character of Allcharacters">
             <div class="card">
-                <input type="checkbox" [value]="characters[i].id"
-                    [formControl]="control" (ngModel)="characters[i].seleccionado" />
-                <img alt="" style="width: 100px;" src={{characters[i].urlImage}}>
-                <p>{{characters[i].nombre}}</p>
+                <img alt="" style="width: 100px;" src={{character.urlImage}}>
+                <p>{{character.nombre}}</p>
+                <input type="checkbox"  [value]="character" (change)="onCheckboxChange(character)"/>
             </div>
-        </ng-container>
+        </div>
     </div>
+    
+
 </div>
 
 <!---

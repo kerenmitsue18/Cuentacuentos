@@ -46,22 +46,28 @@ export class formulary{
     };
   }
 
-  get selectedItemsFormArray(): FormArray {
-    return this.secondFormGroup.get('selectedItems') as FormArray;
-  }
   
-  onSelectedCharactersChange(selectedCharacters: Character[]): void {
-    this.selectedCharacters = selectedCharacters;
+  onSelectedCharactersChange(selectedCharacters: Character[]) {
+    const selectedItems: FormArray = this.secondFormGroup.get('selectedItems') as FormArray;
+    selectedItems.clear(); // Limpiar el FormArray antes de agregar nuevos elementos
+    selectedCharacters.forEach(character => {
+      selectedItems.push(this._formBuilder.control(character));
+    });
   }
 
+  getPersonajes(){
+    const selectedItems: FormArray = this.secondFormGroup.get('selectedItems') as FormArray;
+    return  selectedItems.value as Character[]
+  }
 
 
   Generate(){
-    console.log("los datos requeridos son: ");
     var tipo_cuento = this.firstFormGroup.value['typeSelected'] as TipoCuento
     var topico = this.thirthFormGroup.value['topicSelected'] as Topic
-    var personajes = this.secondFormGroup.value['characters'] as Character[]
+    var personajesForm  = this.secondFormGroup.value['selectedItems'] as FormArray
 
-    prompt: new Prompt(tipo_cuento, this.secondFormGroup.value, topico).getPrompt();
+    var personajes = this.getPersonajes()
+
+    prompt: new Prompt(tipo_cuento, personajes, topico).getPrompt();
   }
 }

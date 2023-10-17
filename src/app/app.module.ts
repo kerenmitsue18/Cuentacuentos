@@ -33,7 +33,6 @@ import { TopicComponent } from './topic/topic.component';
     ReactiveFormsModule,
     MatStepperModule,
     FormsModule,
-    ReactiveFormsModule,
     MatFormFieldModule,
     MatInputModule,
   ],

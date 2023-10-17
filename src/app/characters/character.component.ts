@@ -9,35 +9,36 @@ import { Form, FormArray, FormBuilder, FormControl, FormGroup, Validators } from
   styleUrls: ['./character.component.css']
 })
 
-export class Characters implements OnInit{
+export class Characters implements OnInit  {
 
-  @Input() characterFormArray: FormArray;
-  @Output() selectedCharactersChange = new EventEmitter<Character[]>();
-  characters: Character[] = characters;
+  @Input() formulario: FormGroup;
+  @Output() arrayCharacters = new EventEmitter<Character[]>();
+  Allcharacters: Character[] = characters;
   maxItems = 3;
 
   constructor(private _formBuilder: FormBuilder) {
-    this.characterFormArray = this._formBuilder.array([]);
+    this.formulario = this._formBuilder.group({});    
+  }
+
+  ngOnInit() {
+    // Inicializa el FormArray en el ngOnInit después de que se haya inicializado el formulario
+    const arrayCharacters = this._formBuilder.array([]);
+    this.formulario.setControl('arrayCharacters', arrayCharacters);
+  }
+
+  onCheckboxChange(character: Character) {
+    const arrayCharacters: FormArray = this.formulario.get('arrayCharacters') as FormArray;
+    if (arrayCharacters.value.includes(character)) {
+      arrayCharacters.removeAt(arrayCharacters.value.indexOf(character));
+    }
+    else if (arrayCharacters.length < this.maxItems) {
+      arrayCharacters.push(new FormControl(character));
+    }
+    const selectedCharacters = arrayCharacters.value;
+    this.arrayCharacters.emit(selectedCharacters);
   }
 
 
-  ngOnInit(): void {
-    this.characterFormArray.clear();
-     // Utiliza FormBuilder.control para crear instancias de FormControl
-     this.characters.forEach(() => {
-      this.characterFormArray.push(this._formBuilder.control(false));
-    });
-  }
+
  
-  updateSelectedCharacters(): void {
-    const selectedCharacters: Character[] = [];
-    const characterArray = this.characterFormArray.get('selectedItems') as FormArray;
-    characterArray.controls.forEach((control, index) => {
-      if (control.value) {
-        selectedCharacters.push(this.characters[index]);
-      }
-    });
-    this.selectedCharactersChange.emit(selectedCharacters);
-  }
-
 }
