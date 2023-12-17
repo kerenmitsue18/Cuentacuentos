@@ -2,23 +2,35 @@
   <mat-step [stepControl]="firstFormGroup" errorMessage="El tipo de cuento es requerido.">
     <ng-template matStepLabel matStepperIcon="book">Tipo de cuento</ng-template>
     <app-typeStories [formGroup]="firstFormGroup"></app-typeStories>
-    <div>
-      <button class="button_stepper" color="primary" matStepperNext>Next</button>
+    <div class="button-container">
+      <button class="button_stepper"  matTooltip="Primary" mat-mini-fab color="primary" matStepperNext>
+        <mat-icon class="back-icon">arrow_forward</mat-icon>
+      </button>
     </div>
   </mat-step>
   <mat-step [stepControl]="secondFormGroup" errorMessage="Los personajes son requeridos">
-    <app-characters [formGroup]="secondFormGroup" (arrayCharacters)="onSelectedCharactersChange($event)"></app-characters>
-    <div>
-      <button class="button_stepper" color="primary" matStepperPrevious>Back</button>
-      <button class="button_stepper" color="primary" matStepperNext>Next</button>
+    <app-characters [formGroup]="secondFormGroup"
+      (arrayCharacters)="onSelectedCharactersChange($event)"></app-characters>
+    <div class="button-container">
+      <button class="button_stepper" matTooltip="Primary" mat-mini-fab color="primary" matStepperPrevious>
+        <mat-icon  class="back-icon">arrow_back</mat-icon>
+      </button>
+      <button class="button_stepper"  matTooltip="Primary" mat-mini-fab color="primary" matStepperNext>
+        <mat-icon  class="back-icon">arrow_forward</mat-icon>
+      </button>
     </div>
   </mat-step>
   <mat-step [stepControl]="thirthFormGroup" errorMessage="El tema es requerido">
     <ng-template matStepLabel matStepperIcon="profile">Tema a abordar</ng-template>
     <app-topic [formGroup]="thirthFormGroup"></app-topic>
-    <div>
-      <button class="button_stepper" color="primary" matStepperPrevious>Back</button>
-      <button class="button_stepper" color="primary" matStepperNext (click)="Generate()">Next</button>
+    <div class="button-container">
+      <button class="button_stepper"  matTooltip="Primary" mat-mini-fab color="primary" aria-label="Next" matStepperPrevious>
+        <mat-icon  class="back-icon">arrow_back</mat-icon>
+      </button>
+      <button class="button_stepper"   matTooltip="Primary" mat-mini-fab color="primary" aria-label="Back" matStepperNext
+        (click)="Generate()">
+        <mat-icon  class="back-icon">arrow_forward</mat-icon>
+      </button>
     </div>
   </mat-step>
 </mat-stepper>

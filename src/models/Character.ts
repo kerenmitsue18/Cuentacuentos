@@ -17,6 +17,7 @@ export class Character {
         this.seleccionado = seleccionado;
         this.urlImage = urlImage;
     }
+
 }
 
 
@@ -58,7 +59,7 @@ export const characters: Character[] = [
         'https://holatelcel.com/wp-content/uploads/2022/06/Mama%CC%81-Coco-es-real-y-vive-en-Michoaca%CC%81n.png', 
         false),
 
-    new Character("7", 'La tortuga tita', 'aventurera',
+    new Character("7", 'Tita', 'aventurera',
         'Tortuga de tierra de tamaño pequeño con caparazón con patrones únicos, ojos pequeños y curiosos que reflejan su espíritu aventurero. Tiene un cuello y patas cortas pero robustas, su expresión es valiente y con entusiasmo de nuevas aventuras. ',
         'Aventurera y curiosa. Valiente y decidida. Amante de la naturaleza. Sociable y amigable. Cautelosa y observadora. Inspiradora y motivadora',
         'https://holatelcel.com/wp-content/uploads/2022/06/Mama%CC%81-Coco-es-real-y-vive-en-Michoaca%CC%81n.png', 

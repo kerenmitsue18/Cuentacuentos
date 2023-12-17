@@ -1,16 +1,16 @@
-<div [formGroup] = "formulario">
-    <div class="wrapper">
-        <div class="titulo">Personajes del cuento: </div>
-        <div class="cards" *ngFor="let character of Allcharacters">
-            <div class="card">
-                <img alt="" style="width: 100px;" src={{character.urlImage}}>
-                <p>{{character.nombre}}</p>
-                <input type="checkbox"  [value]="character" (change)="onCheckboxChange(character)"/>
-            </div>
-        </div>
+<div [formGroup]="formulario">
+    <div class="titulo">Personajes del cuento: </div>
+    <div class="grid-container">
+        <mat-card class="cards" *ngFor="let character of Allcharacters">
+            <img alt="" style="width: 100px;" src={{character.urlImage}}>
+            <mat-card-content>
+                <mat-card-title> {{character.nombre}}</mat-card-title>
+                <mat-card-subtitle>{{character.oficio}}</mat-card-subtitle>
+            </mat-card-content>
+            <input type="checkbox" [value]="character" (change)="onCheckboxChange(character)" />
+    </mat-card>
     </div>
-    
-
+   
 </div>
 
 <!---

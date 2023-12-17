@@ -2,31 +2,28 @@
 	display: flex;
 	width: 100%;
 	padding-top: 15px;
+	padding-bottom: 25px;
 	justify-content: center;
 	align-items: center;
 	font-size: 24px;
 	text-align: center;
 }
-
-.wrapper {
-	width: 100%;
-	padding: 10px 10%;
-}
-
-.cards{
+.grid-container {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); 
-	grid-gap: 40px;
-	margin-top: 40px;
-}
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Ajusta el ancho mínimo y máximo de cada columna */
+	gap: 16px; /* Espaciado entre los elementos de la cuadrícula */
+  }
 
-.card {
+.cards {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch; /* Alinea el contenido en toda la altura del card */
+	height: 100%; /* Ocupa toda la altura disponible en la cuadrícula */
 	box-sizing: border-box;
 	width: 190px;
-	height: 254px;
+	height: 230px;
 	background: rgba(217, 217, 217, 0.58);
 	border: 1px solid white;
-	box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
 	backdrop-filter: blur(6px);
 	border-radius: 17px;
 	text-align: center;
@@ -40,12 +37,12 @@
 	color: black;
   }
   
-  .card:hover {
+  .cards:hover {
 	border: 1px solid black;
 	transform: scale(1.05);
   }
   
-  .card:active {
+  .cards:active {
 	transform: scale(0.95) rotateZ(1.7deg);
 	border-color: orangered;
   }
@@ -53,17 +50,8 @@
 
   /*************** COLOCA AQUI ************/
   /* Cosmetics styles */ 
-body {
-	margin: .5em;
-	background: lightgrey;
-  }
   
   .cards {
-	display: flex;
-	flex-wrap: wrap;
-  }
-  
-  .card {
 	flex: 1 0 20%;
 	position: relative;
 	margin: .5em;
@@ -92,7 +80,7 @@ body {
   /* Use z-index to make it accessible to keyboard navigation */
   @media (hover: hover) {
 				input[type="checkbox"] { z-index: -1 }
-	.card:hover input[type="checkbox"],
+	.cards:hover input[type="checkbox"],
 				input[type="checkbox"]:focus,
-				input[type="checkbox"]:checked { z-index: auto }
+				input[type="checkbox"]:checked { z-index: auto; border-color: orangered; }
   }

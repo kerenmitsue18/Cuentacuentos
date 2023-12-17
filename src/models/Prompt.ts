@@ -15,12 +15,13 @@ export class Prompt {
         this.topic = topic;
     }
 
-    getPrompt() {
-        this.prompt = "Crea un " + this.tipo_cuento.nombre + " de " + this.tipo_cuento.descripcion
+    getPrompt(): string {
+        this.prompt = "Eres un cuentacuentos creativo que inculca los valores en sus cuentos. "+
+        "las respuestas deben estar con las siguiente estructura json: \n  con las propiedades 'titulo', 'contenido', 'personajes: [nombres]'. No agregues algo al inicio del json" +
+        "Crea un " + this.tipo_cuento.nombre + " de " + this.tipo_cuento.descripcion 
             + " acerca de " + this.topic.nombre +
-            " en el que participen los siguientes personajes: \n" + this.getCharacters();
-        console.log(this.prompt);
-
+            " en el que participen los siguientes personajes: \n" + this.getCharacters() + " utiliza la siguiente información para generar la historia" ;
+        return this.prompt
     }
 
     getCharacters(): String {
@@ -30,8 +31,6 @@ export class Prompt {
                 character.oficio + ". \nQue tiene las siguientes características físicas: \n" + character.descripcion_fisica +
                 "\nSu personalidad es: \n" + character.descripcion_personalidad + "\n";
         }
-        console.log(characters_string)
-
         return characters_string
     }
 

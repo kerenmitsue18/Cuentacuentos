@@ -1,10 +1,11 @@
-import { FormBuilder, AbstractControl, FormGroup, FormControl, Validators, ValidatorFn, FormArray} from '@angular/forms';
-import { Component, OnInit  } from "@angular/core";
+import { FormBuilder, AbstractControl, FormGroup, FormControl, Validators, ValidatorFn, FormArray } from '@angular/forms';
+import { Component, OnInit } from "@angular/core";
 import { TipoCuento } from 'src/models/TipoCuento';
 import { Character } from 'src/models/Character';
+import { Router } from '@angular/router';
 import { Prompt } from 'src/models/Prompt';
-import { typeStoriesComponent } from '../typeStories/typeStories.component';
 import { Topic } from 'src/models/Topic';
+
 
 @Component({
   selector: 'app-formulary',
@@ -12,30 +13,30 @@ import { Topic } from 'src/models/Topic';
   styleUrls: ['./formulary.component.css']
 })
 
-export class formulary{
+export class formulary {
 
   value: any = null;
   firstFormGroup: FormGroup;
   secondFormGroup: FormGroup;
   thirthFormGroup: FormGroup;
-  maxItems:number = 3;
+  maxItems: number = 3;
   selectedCharacters: Character[] = [];
 
-  constructor(private _formBuilder: FormBuilder) { 
+  constructor(private _formBuilder: FormBuilder, private router: Router) {
 
     this.firstFormGroup = this._formBuilder.group({
       typeSelected: new FormControl(null, Validators.required)
-    });    
+    });
     this.secondFormGroup = this._formBuilder.group({
-      selectedItems:  this._formBuilder.array([])
+      selectedItems: this._formBuilder.array([])
     });
     this.thirthFormGroup = this._formBuilder.group({
       topicSelected: new FormControl(null, Validators.required)
     });
   }
 
- // Validacion de que sean tres personajes 
-  validateCharacterArray(maxItems: number): ValidatorFn{
+  // Validacion de que sean tres personajes 
+  validateCharacterArray(maxItems: number): ValidatorFn {
     return (control: AbstractControl): { [key: string]: any } | null => {
       const selectedItems = control.value as Character[];
       if (selectedItems && selectedItems.length === maxItems) {
@@ -46,7 +47,7 @@ export class formulary{
     };
   }
 
-  
+
   onSelectedCharactersChange(selectedCharacters: Character[]) {
     const selectedItems: FormArray = this.secondFormGroup.get('selectedItems') as FormArray;
     selectedItems.clear(); // Limpiar el FormArray antes de agregar nuevos elementos
@@ -55,19 +56,22 @@ export class formulary{
     });
   }
 
-  getPersonajes(){
+  getPersonajes() {
     const selectedItems: FormArray = this.secondFormGroup.get('selectedItems') as FormArray;
-    return  selectedItems.value as Character[]
+    return selectedItems.value as Character[]
   }
 
 
-  Generate(){
+  Generate() {
+
+    //Obtener datos del formulario 
     var tipo_cuento = this.firstFormGroup.value['typeSelected'] as TipoCuento
     var topico = this.thirthFormGroup.value['topicSelected'] as Topic
-    var personajesForm  = this.secondFormGroup.value['selectedItems'] as FormArray
+    var personajes = this.getPersonajes();
+    let prompt = new Prompt(tipo_cuento, personajes, topico).getPrompt();
 
-    var personajes = this.getPersonajes()
+    this.router.navigate(['storie'], { state: { message: prompt} });
 
-    prompt: new Prompt(tipo_cuento, personajes, topico).getPrompt();
   }
+
 }
