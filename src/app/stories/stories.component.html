@@ -1,4 +1,38 @@
+<div class="title">
+    <p> {{  resultadoJSON.titulo }}</p>
+</div>
 
-<h1>{{  resultadoJSON.titulo }}</h1>
-<p>{{resultadoJSON.contenido }}</p>
-<p>{{personajes}}</p>
+<div class="grid-container-images">
+    <mat-card class="cards" *ngFor="let character of personajes">
+        <img alt="" style="width: 100px;" src={{character.urlImage}}>
+        <mat-card-content>
+            <mat-card-title> {{character.nombre}}</mat-card-title>
+            <mat-card-subtitle>{{character.oficio}}</mat-card-subtitle>
+        </mat-card-content>
+    </mat-card>
+</div>
+
+<p> {{personajes}}</p>
+
+<div class="container-buttons">
+
+    <button class="button_icon" matTooltip="Primary" mat-mini-fab color="primary" aria-label="Back"
+        (click)="generate()">
+        <mat-icon class="back-icon">replay</mat-icon>
+    </button>
+
+    <button class="button_icon" matTooltip="Primary" mat-mini-fab color="primary" aria-label="Back">
+        <mat-icon class="back-icon">volume_up</mat-icon>
+    </button>
+</div>
+
+
+<div class="container-storie">
+    <p> {{resultadoJSON.contenido }}</p>
+</div>
+
+<div class="container-back">
+    <button class="button_icon" matTooltip="Primary" mat-mini-fab color="primary" aria-label="Back" (click)="back()">
+        <mat-icon class="back-icon">arrow_back</mat-icon>
+    </button>
+</div>

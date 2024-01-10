@@ -1,4 +1,4 @@
-.titulo {
+.title {
 	display: flex;
 	width: 100%;
 	padding-top: 15px;
@@ -8,17 +8,22 @@
 	font-size: 24px;
 	text-align: center;
 }
+
 .grid-container {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Ajusta el ancho mínimo y máximo de cada columna */
-	gap: 16px; /* Espaciado entre los elementos de la cuadrícula */
-  }
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	/* Ajusta el ancho mínimo y máximo de cada columna */
+	gap: 16px;
+	/* Espaciado entre los elementos de la cuadrícula */
+}
 
 .cards {
 	display: flex;
 	flex-direction: column;
-	align-items: stretch; /* Alinea el contenido en toda la altura del card */
-	height: 100%; /* Ocupa toda la altura disponible en la cuadrícula */
+	align-items: stretch;
+	/* Alinea el contenido en toda la altura del card */
+	height: 100%;
+	/* Ocupa toda la altura disponible en la cuadrícula */
 	box-sizing: border-box;
 	width: 190px;
 	height: 230px;
@@ -35,52 +40,74 @@
 	user-select: none;
 	font-weight: bolder;
 	color: black;
-  }
-  
+}
+
+/*
   .cards:hover {
-	border: 1px solid black;
+	border: 2px solid grey;
 	transform: scale(1.05);
   }
-  
-  .cards:active {
-	transform: scale(0.95) rotateZ(1.7deg);
-	border-color: orangered;
-  }
+  */
 
+/*************** COLOCA AQUI ************/
+/* Cosmetics styles */
 
-  /*************** COLOCA AQUI ************/
-  /* Cosmetics styles */ 
-  
-  .cards {
+.cards {
 	flex: 1 0 20%;
 	position: relative;
-	margin: .5em;
+	margin: .2em;
 	padding: 2em;
 	min-height: 4em;
 	background: white;
-	border: 3px solid grey;
-  }
-  
-  .active { border-color: orangered; }
-  
-  /* This is where the magic happens */
-  input[type="checkbox"] {
+	border: 2px solid grey;
+}
+
+
+input[type="checkbox"] {
 	position: absolute;
 	top: .5em;
-	left:.5em;
-  }
-  
+	left: .5em;
+}
+
+.names-container{
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+	align-items: center;
+	padding: 10px;
+	color: #3498db;
+	font-size: 20px;
+}
+
+.text-characters {
+	font-size: 20px;
+}
+
+/************** ngClass css **********************+*/
+.selected-card {
+	border: 3px solid #3498db;
+}
+
+.setColorName {
+	color: #3498db;
+}
+
+
+
+/* This is where the magic happens
+ 
   @media (pointer: coarse) { 
 	input[type="checkbox"] {
 	  height: 2em;
 	  width: 2em;
 	}
   }
-  
-  /* Use z-index to make it accessible to keyboard navigation */
+
   @media (hover: hover) {
 				input[type="checkbox"] { z-index: -1 }
 	.cards:hover input[type="checkbox"],
 				input[type="checkbox"]:focus,
 				input[type="checkbox"]:checked { z-index: auto; border-color: orangered; }
   }
+
+  */

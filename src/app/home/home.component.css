@@ -1,0 +1,31 @@
+.images-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-inline-end: 25px;
+    margin-inline-start: 25px;
+
+}
+
+.images-container img{
+    width: 120px;
+}
+
+.info-container{
+    margin-inline-end: 25px;
+    margin-inline-start: 25px;
+    justify-items: center;
+    justify-content: center;
+}
+
+.info-container h1{
+    margin-top: 40px;
+}
+
+.button-container{
+    display: flex;
+    padding: 10px;
+    font-size: 26px;
+    justify-items: center;
+    justify-content: center;
+}

@@ -19,6 +19,7 @@ import { formulary } from './formulary/formulary.component';
 import { Characters } from './characters/character.component';
 import { TopicComponent } from './topic/topic.component';
 import { Stories } from './stories/stories.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { Stories } from './stories/stories.component';
     Characters,
     formulary,
     Stories,
-    TopicComponent
+    TopicComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

@@ -27,24 +27,25 @@ export class Stories implements OnInit {
   urlImages: any = [];
 
 
-  constructor(private location: Location) {
+  constructor(private location: Location, private router: Router) {
     const state: any = this.location.getState();
     this.message = state.message;
-
-
   }
 
   ngOnInit() {
+    this.generate();
+  }
+
+  generate(){
     this.chatgpt.getDataFromOpenAI(this.message).subscribe(data => {
       this.storie = data;
-      this.resultadoJSON = JSON.parse(this.storie);
-      this.personajes = this.resultadoJSON.personajes as [];
-      console.log(this.personajes);
+      //this.resultadoJSON = JSON.parse(this.storie);
+      //this.personajes = this.resultadoJSON.personajes as [];
+      //console.log(this.resultadoJSON)
+      console.log(this.storie);
       this.getCharacter();
     });
   }
-
-
 
   getCharacter(): void {
     for (let per of this.personajes) {
@@ -58,6 +59,10 @@ export class Stories implements OnInit {
 
     console.log(this.urlImages);
 
+  }
+
+  back(){
+    this.router.navigate(['formulary']);
   }
 
 

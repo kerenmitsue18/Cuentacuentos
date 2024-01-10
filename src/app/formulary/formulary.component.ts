@@ -62,16 +62,22 @@ export class formulary {
   }
 
 
-  Generate() {
+  Generate_storie() {
 
     //Obtener datos del formulario 
     var tipo_cuento = this.firstFormGroup.value['typeSelected'] as TipoCuento
     var topico = this.thirthFormGroup.value['topicSelected'] as Topic
     var personajes = this.getPersonajes();
     let prompt = new Prompt(tipo_cuento, personajes, topico).getPrompt();
-
-    this.router.navigate(['storie'], { state: { message: prompt} });
+    
+    this.router.navigate(['storie'], { state: { message: prompt } });
 
   }
 
+  goHome() {
+    this.router.navigate(['home']);
+  }
+
+  
+ 
 }

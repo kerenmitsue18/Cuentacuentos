@@ -1,24 +1,23 @@
-
-
 .button-container {
-    margin-top: 20px;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  display: flex;
 }
 
-.button_stepper{
-    width: 60px;
-    height: 60px;
+.button_stepper {
+  width: 60px;
+  height: 60px;
 }
 
 button {
 
-    mat-icon {
-      display: block;
-      width: 40px;
-      height: 40px;
-      font-size: 40px   ;
-      line-height: 40px;
-    }
+  mat-icon {
+    display: block;
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    line-height: 40px;
   }
+}
+
