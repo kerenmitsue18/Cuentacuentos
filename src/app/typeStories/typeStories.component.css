@@ -1,4 +1,14 @@
-.titulo {
+#card-area {
+	padding: 0px 0;
+}
+
+.wrapper {
+	width: 100%;
+	padding: 10px 10%;
+}
+
+
+.title {
 	display: flex;
 	width: 100%;
 	padding-top: 15px;
@@ -8,49 +18,33 @@
 	text-align: center;
 }
 
-.wrapper {
-	width: 100%;
-	padding: 10px 10%;
-}
-
-.wrapper .title {
-	font-size: 24px;
-	color: #fff;
-	font-weight: 700;
-	text-align: center;
-	margin-bottom: 10px;
-}
-
-#card-area {
-	padding: 0px 0;
-}
 
 .box-area {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	grid-gap: 40px;
 	margin-top: 40px;
 }
 
 .box_item {
-	width: 330px; /* Establece el ancho deseado para tu card */
-  	height: 330px; /* Establece la altura deseada para tu card */
+	width: 330px;
+	/* Establece el ancho deseado para tu card */
+	height: 330px;
+	/* Establece la altura deseada para tu card */
 	border-radius: 10px;
 	position: relative;
 	overflow: hidden;
 	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
-	background-size: cover; 
-  	background-repeat: no-repeat; 
-  	background-position: 0% 50%; 
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0% 50%;
 }
 
-/*
-.box_item img {
-	border-radius: 10px;
-	display: block;
-	transition: transform 0.5s;
-}	
-*/
+.box img{
+	width: 330px;
+	height: 330px;
+	object-fit: cover;
+}
 
 
 .overlay {
@@ -93,7 +87,7 @@
 
 /* Estilo personalizado para el checkbox */
 .card_checkbox {
-    display: none;
+	display: none;
 	position: relative;
 	padding: 0;
 	margin: 0;
@@ -104,13 +98,12 @@
 
 
 /* Ajusta la posición del checkbox dentro del contenedor de la tarjeta */
-.option_item .card_checkbox + .box {
-    top: 10px; 
-    left: 10px;
+.option_item .card_checkbox+.box {
+	top: 10px;
+	left: 10px;
 }
 
 /* Agrega estilos para el checkbox seleccionado */
-.option_item .card_checkbox:checked + .box img{
-    opacity: 0.6;
+.option_item .card_checkbox:checked+.box img {
+	opacity: 0.6;
 }
-

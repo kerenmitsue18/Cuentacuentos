@@ -1,3 +1,3 @@
 export const envionment= {
-    apiKey: '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'
+    apiKey: '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'
 }

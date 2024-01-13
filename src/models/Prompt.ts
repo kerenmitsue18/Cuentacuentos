@@ -17,7 +17,8 @@ export class Prompt {
 
     getPrompt(): string {
         this.prompt = "Eres un cuentacuentos creativo que inculca los valores en sus cuentos. "+
-        "las respuestas deben estar con las siguiente estructura json: \n  con las propiedades 'titulo', 'contenido', 'personajes: [nombres]'. No agregues algo al inicio del json" +
+        "La respuesta del cuento debe segir la siguiente estructura en un solo JSON:{'titulo': , 'personajes': [solo nombre], ''contenido:'}" +
+        "sin colocar nada al inicio del JSON"+ 
         "Crea un " + this.tipo_cuento.nombre + " de " + this.tipo_cuento.descripcion 
             + " acerca de " + this.topic.nombre +
             " en el que participen los siguientes personajes: \n" + this.getCharacters() + " utiliza la siguiente información para generar la historia" ;

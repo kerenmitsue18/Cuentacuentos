@@ -1,6 +1,13 @@
+#card-area {
+	padding: 0px 0;
+}
+.wrapper {
+	width: 100%;
+	padding: 10px 10%;
+}
 
 
-.titulo {
+.title {
 	display: flex;
 	width: 100%;
 	padding-top: 15px;
@@ -10,22 +17,6 @@
 	text-align: center;
 }
 
-.wrapper {
-	width: 100%;
-	padding: 10px 10%;
-}
-
-.wrapper .title {
-	font-size: 24px;
-	color: #fff;
-	font-weight: 700;
-	text-align: center;
-	margin-bottom: 10px;
-}
-
-#card-area {
-	padding: 0px 0;
-}
 
 .box-area {
 	display: grid;
@@ -46,14 +37,12 @@
   	background-position: 0% 50%; 
 }
 
-/*
-.box_item img {
-	border-radius: 10px;
-	display: block;
-	transition: transform 0.5s;
-}	
-*/
 
+.box img{
+	width: 330px;
+	height: 330px;
+	object-fit: cover;
+}
 
 .overlay {
 	width: 100%;

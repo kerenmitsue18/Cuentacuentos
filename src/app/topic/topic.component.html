@@ -1,14 +1,13 @@
 <!--------------------------SELECCION DE UN TIPO DE CUENTO---------------------->
 <div id="card-area" [formGroup]="formGroup">
     <div class="wrapper">
-        <div class="titulo">Tema a abordar:</div>
+        <div class="title">Tema a abordar:</div>
         <div class="box-area">
             <div class="box_item" *ngFor="let topic of topics">
                 <label class="option_item">
-                    <input type="radio" class="card_checkbox" formControlName="topicSelected"
-                     [value]="topic">
+                    <input type="radio" class="card_checkbox" formControlName="topicSelected" [value]="topic">
                     <div class="box">
-                        <img alt="" src={{topic.urlImage}}>
+                        <img src={{topic.urlImage}}>
                         <div class="overlay">
                             <h3>{{topic.nombre}}</h3>
                         </div>

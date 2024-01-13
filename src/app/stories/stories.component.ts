@@ -38,11 +38,15 @@ export class Stories implements OnInit {
 
   generate(){
     this.chatgpt.getDataFromOpenAI(this.message).subscribe(data => {
-      this.storie = data;
+      //this.storie = data
+
+      //this.storie = JSON.parse(data);
       //this.resultadoJSON = JSON.parse(this.storie);
       //this.personajes = this.resultadoJSON.personajes as [];
       //console.log(this.resultadoJSON)
-      console.log(this.storie);
+      console.log("Título:", data);
+      //console.log("Personajes:", this.storie.personajes);
+      //console.log("Contenido:", this.storie.contenido);
       this.getCharacter();
     });
   }
