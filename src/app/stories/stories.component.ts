@@ -2,7 +2,7 @@ import { Component, ChangeDetectorRef, OnInit } from "@angular/core";
 import { Router, ActivatedRoute } from "@angular/router";
 import { OpenAiService } from "src/Service/open-ai.service";
 import { Location } from '@angular/common';
-import { Character, characters } from "src/models/Character";
+import { characters } from "src/models/Character";
 
 
 
@@ -19,12 +19,11 @@ export class Stories implements OnInit {
 
 
   message: any = "";
-  resultadoJSON: any = "";
   storie: string = "";
+  title: string = "";
   chatgpt: OpenAiService = new OpenAiService;
   characters = characters;
   personajes: any = [];
-  urlImages: any = [];
 
 
   constructor(private location: Location, private router: Router) {
@@ -36,36 +35,60 @@ export class Stories implements OnInit {
     this.generate();
   }
 
-  generate(){
+  generate() {
     this.chatgpt.getDataFromOpenAI(this.message).subscribe(data => {
-      //this.storie = data
+      var storie = data.trim();
+      console.log(storie)
+      try {
+        var formattedData = storie.replace(/^\s+|\s+$/g, "");
+        formattedData = formattedData.trim();
+        console.log(formattedData);
+        this.extraerTituloYPersonajes(formattedData);
+      } catch (error) {
+        console.error('Error al parsear JSON:', error);
+      }
 
-      //this.storie = JSON.parse(data);
-      //this.resultadoJSON = JSON.parse(this.storie);
-      //this.personajes = this.resultadoJSON.personajes as [];
-      //console.log(this.resultadoJSON)
-      console.log("Título:", data);
-      //console.log("Personajes:", this.storie.personajes);
-      //console.log("Contenido:", this.storie.contenido);
-      this.getCharacter();
+     
     });
   }
 
-  getCharacter(): void {
-    for (let per of this.personajes) {
+
+  getCharacter(personajes: any[]): void {
+    let auxcharacters: any =[]
+    for (let per of personajes) {
       for (let chara of characters) {
+        per = per.replace(" ", "")
+        console.log(per)
         if (chara.nombre == per) {
-          console.log(chara.nombre + " " + per);
-          this.urlImages.push(chara.urlImage);
+          auxcharacters.push(chara)
+          console.log(auxcharacters)
         }
       }
     }
-
-    console.log(this.urlImages);
-
+    this.personajes = auxcharacters;
+    
   }
 
-  back(){
+
+  extraerTituloYPersonajes(texto: string): void {
+    var tituloInicio = texto.indexOf('"titulo":') + '"titulo":'.length;
+    var tituloFin = texto.indexOf(', "personajes":');
+    this.title = texto.substring(tituloInicio, tituloFin).trim().replace(/"/g, '');
+    console.log(this.title)
+
+    var contenidoInicio = texto.indexOf('"contenido":') + '"contenido":'.length;
+    var contenidoFin = texto.indexOf('"}');
+    this.storie = texto.substring(contenidoInicio, contenidoFin).trim().replace(/"/g, '');
+    
+    var personajesInicio = texto.indexOf('"personajes": [') + '"personajes": ['.length;
+    var personajesFin = texto.indexOf('], "contenido":');
+    var personajes = texto.substring(personajesInicio, personajesFin).trim().replace(/"/g, '');
+    const per = personajes.split(",")
+    this.getCharacter(per);
+  }
+
+
+  back() {
     this.router.navigate(['formulary']);
   }
 

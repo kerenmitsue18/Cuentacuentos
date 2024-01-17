@@ -1,18 +1,19 @@
 <div class="title">
-    <p> {{  resultadoJSON.titulo }}</p>
+    <p> {{ this.title }}</p>
 </div>
 
-<div class="grid-container-images">
-    <mat-card class="cards" *ngFor="let character of personajes">
-        <img alt="" style="width: 100px;" src={{character.urlImage}}>
-        <mat-card-content>
-            <mat-card-title> {{character.nombre}}</mat-card-title>
-            <mat-card-subtitle>{{character.oficio}}</mat-card-subtitle>
-        </mat-card-content>
-    </mat-card>
-</div>
+<div class="container">
+    <div class="grid-container">
+        <mat-card class="cards" *ngFor="let character of personajes">
+            <img [alt]="character.nombre" style="width: 100px;" [src]="character.urlImage">
+            <mat-card-content>
+                <mat-card-title> {{character.nombre}}</mat-card-title>
+                <mat-card-subtitle>{{character.oficio}}</mat-card-subtitle>
+            </mat-card-content>
+        </mat-card>
+    </div>
 
-<p> {{personajes}}</p>
+</div>
 
 <div class="container-buttons">
 
@@ -28,7 +29,7 @@
 
 
 <div class="container-storie">
-    <p> {{resultadoJSON.contenido }}</p>
+    <p> {{this.storie }}</p>
 </div>
 
 <div class="container-back">

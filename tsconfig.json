@@ -6,6 +6,7 @@
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noImplicitOverride": true,
+    "noImplicitAny": false,
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
@@ -17,8 +18,11 @@
     "importHelpers": false,
     "target": "es6",
     "module": "es6",
+    "esModuleInterop": true,
+    "types": ["node"],
+    "typeRoots": ["./src", "./node_modules/@types"],
     "useDefineForClassFields": false,
-    "lib": ["es6","dom"]
+    "lib": ["es2018","dom"]
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

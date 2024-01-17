@@ -56,43 +56,43 @@ export const characters: Character[] = [
     new Character("6", 'Ricardo', 'Pescador',
         'Hombre de mediana edad con piel bronceada por el sol, cabello oscuro, corto y alborotado, con ojos azul profundo, barba de candado con aspecto rústico y aventurero. Estatura promedio, complexión atlética y robusta.Viste con ropa cómoda y práctica como camisetas, pantalones cortos y botas de agua. ',
         'Aventurero y apasionado.Paciente y observador. Conexión con la naturaleza. Comunitario y solidario. Contador de historias. Reflexivo y humilde',
-        'https://holatelcel.com/wp-content/uploads/2022/06/Mama%CC%81-Coco-es-real-y-vive-en-Michoaca%CC%81n.png', 
+        '../assets/src/ricardo.jpg', 
         false),
 
     new Character("7", 'Tita', 'aventurera',
         'Tortuga de tierra de tamaño pequeño con caparazón con patrones únicos, ojos pequeños y curiosos que reflejan su espíritu aventurero. Tiene un cuello y patas cortas pero robustas, su expresión es valiente y con entusiasmo de nuevas aventuras. ',
         'Aventurera y curiosa. Valiente y decidida. Amante de la naturaleza. Sociable y amigable. Cautelosa y observadora. Inspiradora y motivadora',
-        'https://holatelcel.com/wp-content/uploads/2022/06/Mama%CC%81-Coco-es-real-y-vive-en-Michoaca%CC%81n.png', 
+        '../assets/src/tita.jpg', 
         false),
 
     new Character("8", 'Omar', 'niño con ceguera',
         'Niño mexicano de estatura promedio, cabello oscuro y ondulado, sus ojos aunque no ve tienen una expresión cálida y amable. Lleva gafas oscuras que protegen sus ojos. Tiene una sonrisa luminosa que ilumina su rostro. Utiliza una camisa de manga corta con mensajes o diseños en braile y pantalones cómodos para caminar, utiliza un bastón de ciegos',
         'Alegre y optimista. Determinado y valiente. Empático y compresivo. Creativo y curioso. Amigo leal',
-        'https://holatelcel.com/wp-content/uploads/2022/06/Mama%CC%81-Coco-es-real-y-vive-en-Michoaca%CC%81n.png', 
+        '../assets/src/omar.jpg', 
         false),
 
     new Character("9", 'Diego', 'Le gusta jugar con muñecas',
         'Niño mexicano con complexión delgada y atlética, tiene el color castaño claro y ligeramente ondulado, sus ojos son un tono avellana. Su rostro es ovalado y con mejillas sonrosadas, una sonrisa amable y contagiosa. Diego se viste de manera colorida y cómoda, no se preocupa por las normas de género en la vestimenta.',
         'Empático y cariñoso. Creativo y artístico. Curioso y ávido aprendiz. Amigable y sociable. Seguro de sí mismo. Defensor de la igualdad',
-        'https://holatelcel.com/wp-content/uploads/2022/06/Mama%CC%81-Coco-es-real-y-vive-en-Michoaca%CC%81n.png', 
+        '../assets/src/diego.jpg', 
         false),
 
     new Character("10", 'Fernanda', 'Niña con discapacidad visual',
         'Niña mexicana que tiene cabello largo y liso de color negro azabache que cae hasta debajo de sus hombros. Ella tiene lentes de botella por su discapacidad visual, su rostro es de forma ovalada, sonrisa cálida. Utiliza vestidos de colores vivos',
         'Determinada y valiente. Curiosa e inquisitiva. Empática y amigable. Inspiradora y resiliente',
-        'https://holatelcel.com/wp-content/uploads/2022/06/Mama%CC%81-Coco-es-real-y-vive-en-Michoaca%CC%81n.png', 
+        '../assets/src/fernanda.jpg', 
         false),
 
     new Character("11", 'Andrés', 'un niño que no cuenta con una mano',
         'Niño mexicano de cabello color negro y liso, sonrisa amable y contagiosa, ojos de tono café oscuro que expresan confianza y determinación. Nació sin una de sus manos. ',
         'Valentía. Optimista y alegre. Empático y solidario. Amistoso y cariñoso. Independiente y decidido',
-        'https://holatelcel.com/wp-content/uploads/2022/06/Mama%CC%81-Coco-es-real-y-vive-en-Michoaca%CC%81n.png', 
+        '../assets/src/andres.jpg', 
         false),
 
     new Character("12", 'Ximena', 'con síndrome de dawn',
         'Niña mexicana de cabello color oscuro, rizado y corto. Sus ojos son de un tono cálido y expresan curiosidad y ternura. Tiene rasgos faciales suaves y una expresión alegre que ilumina un rostro. Lleva ropa cómoda que refleja su personalidad alegre y su amor por la vida',
         'Valentía. Optimista y alegre. Empático y solidario. Amistoso y cariñoso. Independiente y decidido',
-        'https://holatelcel.com/wp-content/uploads/2022/06/Mama%CC%81-Coco-es-real-y-vive-en-Michoaca%CC%81n.png', 
+        '../assets/src/ximena.jpg', 
         false)
 
 

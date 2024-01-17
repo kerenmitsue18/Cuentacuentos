@@ -12,9 +12,7 @@
 .grid-container {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-	/* Ajusta el ancho mínimo y máximo de cada columna */
 	gap: 16px;
-	/* Espaciado entre los elementos de la cuadrícula */
 }
 
 .cards {
