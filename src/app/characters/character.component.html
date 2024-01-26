@@ -1,18 +1,31 @@
 <div [formGroup]="formulario">
-    <div class="title">Personajes del cuento: </div>
+    
+    <div class="title">
+        <button mat-icon-button class="button_autonew" (click)="getRandomCharacters()">
+            <mat-icon mat-mini-fab color="primary" matTooltip="Primary">autorenew</mat-icon>
+        </button>
+        <p>Personajes del cuento:</p>
+    </div>
     <div class="names-container">
         <p class="text-characters">{{getPersonajes()}}</p>
     </div>
-  
+
+
     <div class="grid-container">
-        <mat-card class="cards" *ngFor="let character of Allcharacters"  [ngClass]="getCardClasses(character)">
+        <mat-card class="cards" *ngFor="let character of Allcharacters" [ngClass]="changeStyleSelected(character)"
+            (click)="onCardClick(character)">
             <img alt="" style="width: 100px;" src={{character.urlImage}}>
             <mat-card-content>
-                <mat-card-title [ngClass]="{'setColorName': isSelected(character)}"> {{character.nombre}}</mat-card-title>
+                <mat-card-title
+                    [ngClass]="{'setColorName': isSelected(character)}">{{character.nombre}}</mat-card-title>
                 <mat-card-subtitle>{{character.oficio}}</mat-card-subtitle>
             </mat-card-content>
-            <input type="checkbox" [value]="character" (change)="onCheckboxChange(character)" />
-    </mat-card>
+        </mat-card>
     </div>
-   
+
+ 
+
+
+
+
 </div>

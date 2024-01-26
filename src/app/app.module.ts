@@ -11,6 +11,7 @@ import {MatStepperModule} from '@angular/material/stepper';
 import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { MatCardModule } from '@angular/material/card';
+import {MatGridListModule} from '@angular/material/grid-list'; 
 import {MatIconModule} from '@angular/material/icon'; 
 
 /* Importar los componentes */
@@ -20,6 +21,7 @@ import { Characters } from './characters/character.component';
 import { TopicComponent } from './topic/topic.component';
 import { Stories } from './stories/stories.component';
 import { HomeComponent } from './home/home.component';
+
 
 @NgModule({
   declarations: [
@@ -42,6 +44,7 @@ import { HomeComponent } from './home/home.component';
     MatFormFieldModule,
     MatInputModule,
     MatCardModule,
+    MatGridListModule,
     MatIconModule
   ],
   providers: [

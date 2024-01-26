@@ -1,11 +1,29 @@
+.button_autonew {
+	width: 60px;
+	height: 60px;
+	margin-right: 60px;
+	transform: rotate(180deg);
+}
+
+
+button {
+	mat-icon {
+		display: block;
+		width: 40px;
+		height: 40px;
+		font-size: 40px;
+		line-height: 40px;
+	}
+}
+
 .title {
 	display: flex;
 	width: 100%;
 	padding-top: 15px;
-	padding-bottom: 25px;
+	padding-bottom: 10px;
 	justify-content: center;
 	align-items: center;
-	font-size: 24px;
+	font-size: 40px;
 	text-align: center;
 }
 
@@ -15,59 +33,67 @@
 	gap: 16px;
 }
 
+mat-card:hover .selection {
+	opacity: 1;
+}
+
+mat-card.mat-elevation-z4 .selection {
+	opacity: 1;
+}
+
+.card-selected {
+	border: 2px solid #283593;
+}
+
+.selection {
+	opacity: 0;
+	cursor: pointer;
+	color: #283593;
+	background: #fff;
+	position: absolute;
+	right: -10px;
+	top: -10px;
+	border-radius: 100%;
+	height: 24px;
+	width: 24px;
+}
+
 .cards {
+	cursor: default;
 	display: flex;
 	flex-direction: column;
 	align-items: stretch;
-	/* Alinea el contenido en toda la altura del card */
-	height: 100%;
-	/* Ocupa toda la altura disponible en la cuadrícula */
 	box-sizing: border-box;
-	width: 190px;
+	width: 200px;
 	height: 230px;
 	background: rgba(217, 217, 217, 0.58);
-	border: 1px solid white;
+	border: 2px solid grey;;
 	backdrop-filter: blur(6px);
 	border-radius: 17px;
 	text-align: center;
-	cursor: pointer;
 	transition: all 0.5s;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	user-select: none;
 	font-weight: bolder;
-	color: black;
+	background-color: white;
+	margin: .5em;
+	margin-left: .9em;
 }
-
-/*
-  .cards:hover {
-	border: 2px solid grey;
-	transform: scale(1.05);
-  }
-  */
-
-/*************** COLOCA AQUI ************/
-/* Cosmetics styles */
 
 .cards {
 	flex: 1 0 20%;
 	position: relative;
 	margin: .2em;
 	padding: 2em;
-	min-height: 4em;
+	min-height: 2em;
 	background: white;
 	border: 2px solid grey;
 }
 
 
-input[type="checkbox"] {
-	position: absolute;
-	top: .5em;
-	left: .5em;
-}
-
-.names-container{
+.names-container {
 	display: flex;
 	justify-content: center;
 	justify-items: center;

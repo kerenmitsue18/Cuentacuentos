@@ -3,16 +3,17 @@
 </div>
 
 <div class="container">
-    <div class="grid-container">
-        <mat-card class="cards" *ngFor="let character of personajes">
-            <img [alt]="character.nombre" style="width: 100px;" [src]="character.urlImage">
-            <mat-card-content>
-                <mat-card-title> {{character.nombre}}</mat-card-title>
-                <mat-card-subtitle>{{character.oficio}}</mat-card-subtitle>
-            </mat-card-content>
-        </mat-card>
-    </div>
-
+    <mat-grid-list cols="3" rowHeight="3:1">
+        <div class="grid-container">
+            <mat-card class="cards" *ngFor="let character of personajes">
+                <img [alt]="character.nombre" [src]="character.urlImage">
+                <mat-card-content>
+                    <mat-card-title class="names-container"> {{character.nombre}}</mat-card-title>
+                    <mat-card-subtitle>{{character.oficio}}</mat-card-subtitle>
+                </mat-card-content>
+            </mat-card>
+        </div>
+    </mat-grid-list>
 </div>
 
 <div class="container-buttons">

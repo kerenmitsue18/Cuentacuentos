@@ -9,35 +9,46 @@ import { FormArray, FormBuilder, FormControl, FormGroup } from '@angular/forms';
   styleUrls: ['./character.component.css']
 })
 
-export class Characters implements OnInit  {
+export class Characters implements OnInit {
 
   @Input() formulario: FormGroup;
-  @Output() arrayCharacters = new EventEmitter<Character[]>();
+  @Output() arrayCharacters = new EventEmitter<Character[]>(); //emmiter del formulario
   Allcharacters: Character[] = characters;
   personajesArray: Set<string> = new Set<string>;
-  
+
   maxItems = 3;
 
   constructor(private _formBuilder: FormBuilder) {
-    this.formulario = this._formBuilder.group({});    
+    this.formulario = this._formBuilder.group({});
   }
 
   ngOnInit() {
-    // Inicializa el FormArray en el ngOnInit después de que se haya inicializado el formulario
-    const arrayCharacters = this._formBuilder.array([]);
+    const arrayCharacters = this._formBuilder.array([]); //inicializar array de formulario
     this.formulario.setControl('arrayCharacters', arrayCharacters);
   }
 
+  /** Agregar o eliminar personajes del arreglo  */
+  onCardClick(character: Character): void {
+    if (this.personajesArray.size >= this.maxItems) {
+      this.personajesArray.delete(character.nombre);
+    } else {
+      if (this.isSelected(character)) {
+        this.personajesArray.delete(character.nombre);
+      } else {
+        this.personajesArray.add(character.nombre);
+      }
+    }
+    this.onCheckboxChange(character)
+  }
+
+  /** Agregar o eliminar personajes del FormArray */
   onCheckboxChange(character: Character) {
     const arrayCharacters: FormArray = this.formulario.get('arrayCharacters') as FormArray;
     if (arrayCharacters.value.includes(character)) {
       arrayCharacters.removeAt(arrayCharacters.value.indexOf(character));
-      this.personajesArray.delete(character.nombre);
     }
     else if (arrayCharacters.length < this.maxItems) {
       arrayCharacters.push(new FormControl(character));
-      this.personajesArray.add(character.nombre);
-      
     }
     const selectedCharacters = arrayCharacters.value;
     this.arrayCharacters.emit(selectedCharacters);
@@ -47,38 +58,39 @@ export class Characters implements OnInit  {
     return this.personajesArray.has(character.nombre);
   }
 
-  getPersonajes(): any{
-    let string_personajes= "";
-    if (this.personajesArray.size == 0){
+  getPersonajes(): any {
+    let string_personajes = "";
+    if (this.personajesArray.size == 0) {
       string_personajes = "";
-    }else{
+    } else {
       this.personajesArray.forEach(element => {
         string_personajes += element + ", ";
       });
     }
-   
+
     return string_personajes.slice(0, -2);
   }
-  
 
-  getCardClasses(character: Character): any{
+
+  /** Indica la propiedad CSS que debe cambiar al seleccionar  */
+  changeStyleSelected(character: Character): any {
     return {
       "selected-card": this.isSelected(character)
     }
-
   }
 
   getRandomCharacters() {
+    //limpir el emmit y arreglo para asegurar que no hay seleccionados.
     this.arrayCharacters.emit([]);
     this.personajesArray.clear();
-    
-    for (let i = 0; i < this.maxItems; i++) {
+
+    while (this.personajesArray.size < 3) {
       const index = Math.floor(Math.random() * this.Allcharacters.length);
-      //this.arrayCharacters.push(new FormControl(this.Allcharacters[index]));
-      this.personajesArray.add(this.Allcharacters[index].nombre);
-      console.log(this.personajesArray)
+      this.onCardClick(this.Allcharacters[index]);
     }
+
+    console.log(this.personajesArray)
   }
 
- 
+
 }

@@ -4,15 +4,11 @@ import { OpenAiService } from "src/Service/open-ai.service";
 import { Location } from '@angular/common';
 import { characters } from "src/models/Character";
 
-
-
-
 @Component({
   selector: 'app-stories',
   templateUrl: './stories.component.html',
   styleUrls: ['./stories.component.css']
 })
-
 
 
 export class Stories implements OnInit {

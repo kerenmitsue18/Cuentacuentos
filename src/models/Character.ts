@@ -41,7 +41,7 @@ export const characters: Character[] = [
         '../assets/src/sofia.jpg', 
         false),
 
-    new Character("4", 'Isabella', 'Defensora de los animales',
+    new Character("4", 'Isabella', 'Animalista',
         'Chica Mexicana de tez morena, con un rostro suave y ojos cálidos y compasivos. Cabello largo y oscuro que cae en ondas naturales sobre sus hombros. Viste con camisas con mensajes a favor de los animales y pantalones vaqueros desgastados. Lleva una mochila que tiene cosas para defender a los animales. ',
         'Apasionada por la causa animal. Compasiva y empática. Persuasiva y comunicativa. Valiente y decidida. Educada y conocedora. Organizada. ',
         '../assets/src/isabella.jpg',
@@ -65,13 +65,13 @@ export const characters: Character[] = [
         '../assets/src/tita.jpg', 
         false),
 
-    new Character("8", 'Omar', 'niño con ceguera',
+    new Character("8", 'Omar', 'Niño con ceguera',
         'Niño mexicano de estatura promedio, cabello oscuro y ondulado, sus ojos aunque no ve tienen una expresión cálida y amable. Lleva gafas oscuras que protegen sus ojos. Tiene una sonrisa luminosa que ilumina su rostro. Utiliza una camisa de manga corta con mensajes o diseños en braile y pantalones cómodos para caminar, utiliza un bastón de ciegos',
         'Alegre y optimista. Determinado y valiente. Empático y compresivo. Creativo y curioso. Amigo leal',
         '../assets/src/omar.jpg', 
         false),
 
-    new Character("9", 'Diego', 'Le gusta jugar con muñecas',
+    new Character("9", 'Diego', 'Tránsgenero',
         'Niño mexicano con complexión delgada y atlética, tiene el color castaño claro y ligeramente ondulado, sus ojos son un tono avellana. Su rostro es ovalado y con mejillas sonrosadas, una sonrisa amable y contagiosa. Diego se viste de manera colorida y cómoda, no se preocupa por las normas de género en la vestimenta.',
         'Empático y cariñoso. Creativo y artístico. Curioso y ávido aprendiz. Amigable y sociable. Seguro de sí mismo. Defensor de la igualdad',
         '../assets/src/diego.jpg', 
