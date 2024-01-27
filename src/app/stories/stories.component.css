@@ -48,6 +48,7 @@ body {
 	background-color: white;
 	margin: .5em;
 	margin-left: .9em;
+	overflow: hidden;
 }
 .cards img{
 	margin-top: 20px;

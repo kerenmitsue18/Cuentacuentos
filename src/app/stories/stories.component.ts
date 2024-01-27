@@ -1,5 +1,5 @@
 import { Component, ChangeDetectorRef, OnInit } from "@angular/core";
-import { Router, ActivatedRoute } from "@angular/router";
+import { Router, ActivatedRoute, RouterEvent } from "@angular/router";
 import { OpenAiService } from "src/Service/open-ai.service";
 import { Location } from '@angular/common';
 import { characters } from "src/models/Character";
@@ -32,7 +32,9 @@ export class Stories implements OnInit {
   }
 
   generate() {
+    
     this.chatgpt.getDataFromOpenAI(this.message).subscribe(data => {
+      data = data.choices[0].text;
       var storie = data.trim();
       console.log(storie)
       try {
@@ -43,14 +45,15 @@ export class Stories implements OnInit {
       } catch (error) {
         console.error('Error al parsear JSON:', error);
       }
-
-     
     });
   }
 
+  speech(){
+    
+  }
 
   getCharacter(personajes: any[]): void {
-    let auxcharacters: any =[]
+    let auxcharacters: any = []
     for (let per of personajes) {
       for (let chara of characters) {
         per = per.replace(" ", "")
@@ -62,7 +65,7 @@ export class Stories implements OnInit {
       }
     }
     this.personajes = auxcharacters;
-    
+
   }
 
 
@@ -75,7 +78,7 @@ export class Stories implements OnInit {
     var contenidoInicio = texto.indexOf('"contenido":') + '"contenido":'.length;
     var contenidoFin = texto.indexOf('"}');
     this.storie = texto.substring(contenidoInicio, contenidoFin).trim().replace(/"/g, '');
-    
+
     var personajesInicio = texto.indexOf('"personajes": [') + '"personajes": ['.length;
     var personajesFin = texto.indexOf('], "contenido":');
     var personajes = texto.substring(personajesInicio, personajesFin).trim().replace(/"/g, '');
