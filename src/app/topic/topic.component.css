@@ -3,7 +3,7 @@
 }
 .wrapper {
 	width: 100%;
-	padding: 10px 10%;
+	padding: 8px 8%;
 }
 
 
@@ -15,19 +15,20 @@
 	align-items: center;
 	font-size: 40px;
 	text-align: center;
+	font-family: "Neucha", cursive;
 }
 
 
 .box-area {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
 	grid-gap: 40px;
 	margin-top: 40px;
 }
 
 .box_item {
-	width: 330px; /* Establece el ancho deseado para tu card */
-  	height: 330px; /* Establece la altura deseada para tu card */
+	width: 260px; /* Establece el ancho deseado para tu card */
+  	height: 300px; /* Establece la altura deseada para tu card */
 	border-radius: 10px;
 	position: relative;
 	overflow: hidden;
