@@ -43,3 +43,6 @@ Thumbs.db
 
 
 .env
+
+src/environments/environment.development.ts
+src/environments/environment.ts
