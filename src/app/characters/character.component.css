@@ -19,17 +19,18 @@ button {
 .title {
 	display: flex;
 	width: 100%;
-	padding-top: 15px;
+	padding-top: 10px;
 	padding-bottom: 10px;
 	justify-content: center;
 	align-items: center;
 	font-size: 40px;
 	text-align: center;
+	font-family: "Neucha", cursive;
 }
 
 .grid-container {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 	gap: 16px;
 }
 
@@ -39,6 +40,11 @@ mat-card:hover .selection {
 
 mat-card.mat-elevation-z4 .selection {
 	opacity: 1;
+}
+mat-card-title{
+	margin-top: 20px;
+	font-size: 40px;
+	font-family: "Alkatra", system-ui;
 }
 
 .card-selected {
@@ -64,8 +70,8 @@ mat-card.mat-elevation-z4 .selection {
 	flex-direction: column;
 	align-items: stretch;
 	box-sizing: border-box;
-	width: 200px;
-	height: 230px;
+	width: 300px;
+	height: 300px;
 	background: rgba(217, 217, 217, 0.58);
 	border: 2px solid grey;;
 	backdrop-filter: blur(6px);
@@ -100,11 +106,17 @@ mat-card.mat-elevation-z4 .selection {
 	align-items: center;
 	padding: 10px;
 	color: #3498db;
-	font-size: 20px;
+	font-size: 60px;
 }
 
 .text-characters {
-	font-size: 20px;
+	font-size: 30px;
+	font-family: "Alkatra", system-ui;
+}
+
+mat-card-subtitle{
+	margin-top: 10px;
+	font-size: 24px;
 }
 
 /************** ngClass css **********************+*/

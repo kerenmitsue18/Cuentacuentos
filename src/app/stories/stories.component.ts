@@ -1,8 +1,9 @@
-import { Component, ChangeDetectorRef, OnInit } from "@angular/core";
-import { Router, ActivatedRoute, RouterEvent } from "@angular/router";
+import { Component, OnInit, ElementRef } from "@angular/core";
+import { Router } from "@angular/router";
 import { OpenAiService } from "src/Service/open-ai.service";
 import { Location } from '@angular/common';
 import { characters } from "src/models/Character";
+//import { SafeResourceUrl } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-stories',
@@ -17,12 +18,16 @@ export class Stories implements OnInit {
   message: any = "";
   storie: string = "";
   title: string = "";
-  chatgpt: OpenAiService = new OpenAiService;
   characters = characters;
   personajes: any = [];
+  //audioUrl: SafeResourceUrl | undefined;
+  isPlaying: boolean = false;
 
 
-  constructor(private location: Location, private router: Router) {
+  constructor(private location: Location, private router: Router,
+     private openAiService: OpenAiService, 
+     //private sanitizer: DomSanitizer,
+    ) {
     const state: any = this.location.getState();
     this.message = state.message;
   }
@@ -30,27 +35,64 @@ export class Stories implements OnInit {
   ngOnInit() {
     this.generate();
   }
-
+  
   generate() {
     
-    this.chatgpt.getDataFromOpenAI(this.message).subscribe(data => {
-      data = data.choices[0].text;
+    this.openAiService.getDataFromOpenAI(this.message).subscribe(data => {
       var storie = data.trim();
-      console.log(storie)
+      console.log(storie);
       try {
         var formattedData = storie.replace(/^\s+|\s+$/g, "");
         formattedData = formattedData.trim();
-        console.log(formattedData);
         this.extraerTituloYPersonajes(formattedData);
       } catch (error) {
         console.error('Error al parsear JSON:', error);
       }
     });
   }
+  
 
-  speech(){
-    
-  }
+  // async speech() {
+
+  //   const audioPlayer = document.querySelector('#audioPlayer') as HTMLAudioElement;
+  //   let message = this.title + " " + this.storie;
+  //   let message = this.message.replace("<br>", "")
+  //   let message = "Había una vez en un pequeño pueblo de México, tres mujeres que se destacaban por su sabiduría y" +
+  //     "dedicación a sus oficios. Sofia, una curandera de piel cálida y arrugas suaves, era conocida por sus habilidades" +
+  //     "para sanar con hierbas y remedios naturales. Isabella, una animalista de tez morena y ojos compasivos, luchaba por los " +
+  //     "derechos de los animales y su bienestar. Y Juanita, una artesana de ojos brillantes y manos pacientes, creaba hermosas piezas de artesanía";
+
+  //   if (this.audioUrl == null) { //No se ha generado el audio
+  //     try{
+  //       this.audioUrl = await this.openAiService.getSpeechOpenAI(message);
+  //       Asignar la URL y el título al elemento <audio>
+  //       audioPlayer.load();
+  //       audioPlayer.play();
+
+  //     }catch(error){
+  //       console.error("Ocurrio algo mal", error);
+  //     }
+  //   }
+
+  //   if (this.isPlaying) {
+  //     audioPlayer.pause();
+  //   } else {
+  //     audioPlayer.play();
+  //   }
+  //   this.isPlaying = !this.isPlaying;
+
+  // }
+  // async speech(){
+  //   console.log("Aqui")
+  //   let message = "Había una vez en un pequeño pueblo de México, tres mujeres que se destacaban por su sabiduría y" +
+  //   "dedicación a sus oficios. Sofia, una curandera de piel cálida y arrugas suaves, era conocida por sus habilidades" +
+  //   "para sanar con hierbas y remedios naturales. Isabella, una animalista de tez morena y ojos compasivos, luchaba por los " +
+  //   "derechos de los animales y su bienestar. Y Juanita, una artesana de ojos brillantes y manos pacientes, creaba hermosas piezas de artesanía";
+  //   const outFile = 'cuento.pm3'
+  //   const outputFile = this.ttsService.sythesize(message, outFile);
+
+  // }
+   
 
   getCharacter(personajes: any[]): void {
     let auxcharacters: any = []
@@ -73,11 +115,11 @@ export class Stories implements OnInit {
     var tituloInicio = texto.indexOf('"titulo":') + '"titulo":'.length;
     var tituloFin = texto.indexOf(', "personajes":');
     this.title = texto.substring(tituloInicio, tituloFin).trim().replace(/"/g, '');
-    console.log(this.title)
 
     var contenidoInicio = texto.indexOf('"contenido":') + '"contenido":'.length;
     var contenidoFin = texto.indexOf('"}');
     this.storie = texto.substring(contenidoInicio, contenidoFin).trim().replace(/"/g, '');
+
 
     var personajesInicio = texto.indexOf('"personajes": [') + '"personajes": ['.length;
     var personajesFin = texto.indexOf('], "contenido":');

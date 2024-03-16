@@ -1,6 +1,6 @@
-<mat-stepper #stepper>
+<mat-stepper labelPosition="bottom" #stepper>
   <mat-step [stepControl]="firstFormGroup" errorMessage="El tipo de cuento es requerido.">
-    <ng-template matStepLabel matStepperIcon="book">Tipo de cuento</ng-template>
+    <ng-template matStepLabel><p style="font-size: 28px; font-family: 'Bad Script', cursive;">Tipo de cuento</p></ng-template>
     <app-typeStories [formGroup]="firstFormGroup"></app-typeStories>
     <div class="button-container">
       <button class="button_stepper"  matTooltip="Primary" mat-mini-fab color="primary" (click)="goHome()">
@@ -12,7 +12,7 @@
     </div>
   </mat-step>
   <mat-step [stepControl]="secondFormGroup" errorMessage="Los personajes son requeridos">
-    <ng-template matStepLabel matStepperIcon="account">Personaje</ng-template>
+    <ng-template matStepLabel matStepperIcon="account"><p style="font-size: 28px; font-family: 'Bad Script', cursive;">Personajes</p></ng-template>
     <app-characters [formGroup]="secondFormGroup"
       (arrayCharacters)="onSelectedCharactersChange($event)"></app-characters>
     <div class="button-container">
@@ -25,7 +25,7 @@
     </div>
   </mat-step>
   <mat-step [stepControl]="thirthFormGroup" errorMessage="El tema es requerido">
-    <ng-template matStepLabel matStepperIcon="profile">Tema a abordar</ng-template>
+    <ng-template matStepLabel matStepperIcon="profile"><p style="font-size: 28px; font-family: 'Bad Script', cursive;">Tema a abordar</p></ng-template>
     <app-topic [formGroup]="thirthFormGroup"></app-topic>
     <div class="button-container">
       <button class="button_stepper"  matTooltip="Primary" mat-mini-fab color="primary" aria-label="Next" matStepperPrevious>

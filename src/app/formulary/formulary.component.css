@@ -21,3 +21,16 @@ button {
   }
 }
 
+/* .mat-mdc-form-field {
+  margin-top: 10px;
+  margin-bottom: 10px;
+} */
+
+.mat-step-icon-selected{
+  width: 40px;
+  height: 40px;
+}
+
+.mat-step-header {
+  --mat-stepper-header-edit-state-icon-background-color: red; /* Cambia el color de fondo del ícono de edición a rojo */
+}

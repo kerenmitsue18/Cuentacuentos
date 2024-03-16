@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { RouterModule } from '@angular/router';
+
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button';
@@ -21,19 +23,22 @@ import { Characters } from './characters/character.component';
 import { TopicComponent } from './topic/topic.component';
 import { Stories } from './stories/stories.component';
 import { HomeComponent } from './home/home.component';
-
+import { HttpClientModule } from '@angular/common/http';
+import { LineBreakPipe } from 'src/models/PipeLine';
 
 @NgModule({
   declarations: [
     AppComponent,
     typeStoriesComponent, 
     Characters,
-    formulary,
     Stories,
+    formulary,
     TopicComponent,
-    HomeComponent
+    HomeComponent,
+    LineBreakPipe
   ],
   imports: [
+    RouterModule,
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
@@ -45,6 +50,7 @@ import { HomeComponent } from './home/home.component';
     MatInputModule,
     MatCardModule,
     MatGridListModule,
+    HttpClientModule,
     MatIconModule
   ],
   providers: [
