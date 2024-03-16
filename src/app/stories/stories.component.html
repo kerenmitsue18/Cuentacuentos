@@ -1,3 +1,4 @@
+
 <div class="title">
     <p> {{ this.title}}</p>
 </div>
@@ -17,20 +18,21 @@
 </div>
 
 <div class="container-buttons">
-
-    <button class="button_icon" matTooltip="Primary" mat-mini-fab color="primary" aria-label="Back"
-        (click)="generate()">
+    <button class="button_icon" matTooltip="Primary" mat-mini-fab color="primary" aria-label="Back">
         <mat-icon class="back-icon">replay</mat-icon>
     </button>
 
-    <button class="button_icon" matTooltip="Primary" mat-mini-fab color="primary" aria-label="Back" (click)="speech()">
+    <button class="button_icon" matTooltip="Primary" mat-mini-fab color="primary" aria-label="Back">
         <mat-icon class="back-icon">volume_up</mat-icon>
     </button>
 </div>
 
 
+
+
 <div class="container-storie">
-    <p> {{this.storie }}</p>
+    <p [innerHTML]="storie"></p>
+
 </div>
 
 <div class="container-back">
