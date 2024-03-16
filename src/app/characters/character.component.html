@@ -1,5 +1,10 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Neucha&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&family=Julius+Sans+One&family=Neucha&family=Overlock+SC&display=swap" rel="stylesheet">
+
 <div [formGroup]="formulario">
-    
+  
     <div class="title">
         <button mat-icon-button class="button_autonew" (click)="getRandomCharacters()">
             <mat-icon mat-mini-fab color="primary" matTooltip="Primary">autorenew</mat-icon>
@@ -14,7 +19,7 @@
     <div class="grid-container">
         <mat-card class="cards" *ngFor="let character of Allcharacters" [ngClass]="changeStyleSelected(character)"
             (click)="onCardClick(character)">
-            <img alt="" style="width: 100px;" src={{character.urlImage}}>
+            <img alt="" style="width: 170px;" src={{character.urlImage}}>
             <mat-card-content>
                 <mat-card-title
                     [ngClass]="{'setColorName': isSelected(character)}">{{character.nombre}}</mat-card-title>
