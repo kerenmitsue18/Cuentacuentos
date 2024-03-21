@@ -37,7 +37,7 @@ export class Stories implements OnInit {
   }
   
   generate() {
-    
+    /*
     this.openAiService.getDataFromOpenAI(this.message).subscribe(data => {
       var storie = data.trim();
       console.log(storie);
@@ -49,6 +49,10 @@ export class Stories implements OnInit {
         console.error('Error al parsear JSON:', error);
       }
     });
+    */
+    this.title = "El Festival de la Tolerancia";
+    this.storie = "En un pintoresco pueblo mexicano, Fernanda, una niña valiente con discapacidad visual, organizó el primer Festival de la Tolerancia. Invitó a su amigo Andrés, quien a pesar de su discapacidad en una mano, irradiaba alegría y optimismo. También invitó a Omar, un niño con ceguera, conocido por su sonrisa luminosa. Juntos, prepararon el festival, decorando el pueblo con mensajes de inclusión y respeto. Durante el evento, niños y adultos compartieron historias de superación y solidaridad. Fernanda recorrió el festival con su bastón, guiando a Omar y Andrés con la voz llena de determinación. Andrés ayudó a decorar con sus habilidades creativas, mientras Omar compartía sus conocimientos sobre la importancia del braille. Al final del día, el pueblo brillaba con la diversidad y la aceptación. El Festival de la Tolerancia se convirtió en un recordatorio de que juntos, podemos superar cualquier barrera y construir un mundo donde todos sean bienvenidos.";
+    this.getCharacter(["Fernanda", "Andrés", "Omar"])
   }
   
 
