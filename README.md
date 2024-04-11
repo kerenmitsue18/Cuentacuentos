@@ -20,6 +20,11 @@ de voz, entonación, velocidad y calidad de pronunciación. El sistema crea hist
 
 ## Metodología aplicada
 
+
+A continuación se muestra un resumen gráfico de la metodología empleada. 
+
+<img src="https://github.com/kerenmitsue18/Cuentacuentos/blob/master/Diagrama_cuentacuentos.png" alt="Metodología aplicada" width="550px" align="center">
+
 El sistema cuenta con una estructura general de un prompt adecuado que orienta al sistema hacia la generación de resultados coherentes. Por lo que se definieron tres elementos fundamentales de dicha estructura, que el usuario puede personalizar. Los parámetros son los siguientes: 
 | Parámetro | Descripción                    |
 | ------------- | ------------------------------ |
@@ -27,9 +32,18 @@ El sistema cuenta con una estructura general de un prompt adecuado que orienta a
 | `Personajes`   |  Se refiere a las características físicas y de personalidad de cada uno de los personajes. Cada historis puede tener un máximo de tres personajes.  |
 | `Tema`   | Se trata del contexto o tema en el que se desarrollará la historia. Puedes elegir entre respeto, tolerancia, equidad y cuidado del medio ambiente.    |
 
-A continuación se muestra un resumen gráfico de la metodología empleada. 
+Una vez seleccionados los parámetros, el sistema genera el prompt correspondiente para ingresarlo a la IA generativa. 
 
-<img src="https://github.com/kerenmitsue18/Cuentacuentos/blob/master/Diagrama_cuentacuentos.png" alt="Metodología aplicada" width="550px" align="center">
+
+```javascript
+function test(){
+	console.log("Hello world!");
+}
+ 
+
+```
+
+
 
 
 Puedes acceder a ver un ejemplo de funcionamiento del sistema en el siguiente video [Ejemplo del cuento](https://youtu.be/KxRVmPbGPlc)
