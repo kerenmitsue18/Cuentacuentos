@@ -10,7 +10,10 @@ cuentos dirigidos a niños de habla hispana.
 ## Contribuciones
 - Alternativa para abordar el desafío de fomentar la inclusión de personas con discapacidades en América Latina, mediante una solución tecnológica del estado del arte.
 - Diseño completo de un sistema de software basado en IAG orientado a generar y contar historias para niñas y niños de habla hispana.
-- Diseño de un prompt especialmente diseñado para generar distintos cuentos que promueven valores de empatía y respeto hacia personas con discapacidad.
+- Diseño de un ***prompt*** especialmente diseñado para generar distintos cuentos que promueven valores de empatía y respeto hacia personas con discapacidad.
+- Evaluación del sistema en cuanto a la diversidad de historias generadas.
+- Evaluación de la entonación, velocidad y calidad de pronunciación en las narrativas de los cuentos.
+- Proporcionar el ***código fuente*** y los archivos complementarios para fines no comerciales.
 
 ## Palabras clave
 > ChatGPT, Cuenta cuentos, Discapacidad, IA Generativa, Inclusión
