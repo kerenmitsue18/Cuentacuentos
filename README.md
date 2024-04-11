@@ -2,8 +2,9 @@
 
 
 ## Resumen
-Se muestra el diseño y la implementación de un sistema basado en inteligencia artificial generativa (ChatGPT) para la creación automática  de
-cuentos dirigidos a niños de habla hispana.
+Se presenta el diseño completo y la evaluación de un sistema cuentacuentos digital, destinado a niños de entre 4 y 6 años en Latinoamérica. Este sistema está basado en inteligencia artificial generativa. Se realizaron pruebas que abarcaron el funcionamiento del sistema, la diversidad de contenidos, los tiempos de generación, la evaluación
+de voz, entonación, velocidad y calidad de pronunciación. Los resultados confirman que el sistema funciona correctamente y es intuitivo. Las historias generadas muestran un alto grado de diversidad, ya que al calcular los índices de Jaccard, el valor máximo encontrado fue de 0.2 en las evaluaciones de 30 cuentos analizados; como era de esperarse, los tiempos de generación aumentan conforme se incrementa la longitud de cuentos. Se identificó que la voz que mejor se adapta para contar los cuentos es Onyx de la TTS de OpenAI. Sin embargo, se observaron errores de pronunciación en todas las voces del modelo TTS. De acuerdo con el análisis realizado, el sistema crea historias diferentes, que promueven valores en los niños de habla hispana, fomentando la importancia de la inclusión de personas con capacidades diferentes. Cabe destacar que en ningún cuento se encontró contenido no apto para niños.
+
 
 ## Objetivos
 1. Inculcar en la niñez los valores de respeto, tolerancia y empatía hacia personas con discapacidad a través de historias.
