@@ -128,6 +128,28 @@ Para comparar las diversas voces proprocionadas por OpenAI, se analizaron las si
 | Shimmer  | Presenta una voz amigable y natural, ideal para la narración de cuentos.   |
 
 
+#### Variación de entonación
+
+| Voz sintética | Descripción                    |
+| ------------- | ------------------------------ |
+| Alloy   | Presenta una entonación constante y precisa, respetando los puntos y comas; por lo que, contribuye a una lectura agradable y fluida.    |
+| Fable   | Mantiene una entonación constante y adecuada en cuanto a la puntuación.   |
+| Echo   | Se presenta una entonación constante y adecuada en cuanto a la puntuación, sin embargo, las pausas no son muy notorias, lo que afecta la claridad y la narrativa del cuento.  |
+| Onyx  | Realiza una buena entonación, ya que realiza pausas correctamente, lo que mejora la narrativa del cuento.  |
+| Nova  | No tiene una buena entonación, realiza una narración lineal  |
+| Shimmer  | Proporciona una buena entonación en los párrafos, a pesar de no tener buenas pausas en la narración.   |
+
+#### Velocidad del habla
+
+| Voz sintética | Descripción                    |
+| ------------- | ------------------------------ |
+| Alloy   | Gracias a que tiene una velocidad constante, mantiene una audición clara y comprensible.    |
+| Fable   | Se caracteriza por tener una velocidad rápida, a pesar de contar con pausas durante la narración, la rápidez le resta expresividad narrativa al audio.   |
+| Echo   | La velocidad es constante, solo que no realiza pausas tan largas que parace una simple lectura, más no un cuento.  |
+| Onyx  | La velocidad es constante, y tranquila, lo que se plantea que es la voz más adecuada para la narración de cuentos e historias.  |
+| Nova  | Muestra un ritmo variable, con momentos de rápida pronunciación seguido de momentos más lentos.  |
+| Shimmer  | Mantiene una velocidad constante a lo largo del audio.    |
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
 
 ## Development server
