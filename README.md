@@ -86,9 +86,14 @@ Para implementar la voz sintética, se implementó el TTS (Text to Speech) de Op
 ## Resultados y discusión
 
 ### Prueba de funcionamiento 
-La prueba de funconamiento del sistema consistió en ingresar parámetros elegidos por el usuario. Para propósitos demostrativos se seleccionó un tipo de cuento ***microcuento***; se eligieron 3 personajes: ***Andrés*** (niño con discapacidad en una mano), ***Fernanda*** (niña con discapacidad visual) y ***Omar*** (Un niño con ceguera), finalmente se eligió el tema de la ***tolerancia***. Puedes acceder a ver el ejemplo en el video [Ejemplo del cuento](https://youtu.be/KxRVmPbGPlc)
+La prueba de funconamiento del sistema consistió en ingresar parámetros elegidos por el usuario. Para propósitos demostrativos se seleccionó un tipo de cuento ***microcuento***; se eligieron 3 personajes: ***Andrés*** (niño con discapacidad en una mano), ***Fernanda*** (niña con discapacidad visual) y ***Omar*** (Un niño con ceguera), finalmente se eligió el tema de la ***tolerancia***. La voz con la que se reproduce el cuento es con la voz ***fable*** de openAI. 
+Puedes acceder a ver el ejemplo en el video [Ejemplo del cuento](https://youtu.be/KxRVmPbGPlc)
 
 ### Medición de similitudes entre cuentos 
+Para medir la diversidad de contenidos en los cuentos generados, es decir, que tan diferentes son las historias que genera el sistema; se realizaron dos experimentos.
+- **Primer experimento:** Mantener invariables al tipo de cuento, personajes y tema, generando así 30 cuentos con la misma temática.
+- **Segundo experimento:** 
+
 
 ### Análisis de las voces en la reproducción de cuentos
 
