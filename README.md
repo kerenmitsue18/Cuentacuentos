@@ -94,6 +94,16 @@ Para medir la diversidad de contenidos en los cuentos generados, es decir, que t
 - **Primer experimento:** Mantener invariables al tipo de cuento, personajes y tema, generando así 30 cuentos con la misma temática.
 - **Segundo experimento:** 
 
+A partir de los cuentos generados, se calcularon todos los índices de Jaccard entre pares de cuentos, tanto del primer como del segundo experimento. Como se observa graficamente a continuación:
+
+<img src="https://github.com/kerenmitsue18/Cuentacuentos/blob/master/resultados_sistemas/Matriz.png" alt="Metodología aplicada" width="550px" align="center">
+
+> Indice de Jaccard del primer experimento
+
+<img src="https://github.com/kerenmitsue18/Cuentacuentos/blob/master/resultados_sistemas/MatrizJaccard2.png" alt="Metodología aplicada" width="550px" align="center">
+
+> Indice de Jaccard del segundo experimento
+
 
 ### Análisis de las voces en la reproducción de cuentos
 
