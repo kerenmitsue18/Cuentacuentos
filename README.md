@@ -94,7 +94,7 @@ Para medir la diversidad de contenidos en los cuentos generados, es decir, que t
 - **Segundo experimento:** Colocar el tipo de cuento, personajes y tema de manera aleatoria, generando así 30 cuentos con diferentes parámetros.
 
 Los resultados de cada uno de los experimentos los puedes consultar en la carpeta ***resultados_sistemas***.
-[Cuentos generados del primer experimento ](https://github.com/kerenmitsue18/Cuentacuentos/tree/master/resultados_sistemas/cuentos_primer_experimento).
+[Cuentos generados del primer experimento ](https://github.com/kerenmitsue18/Cuentacuentos/tree/master/resultados_sistemas/audios_cuento_demostrativo).
 [Cuentos generados del segundo experimento ](https://github.com/kerenmitsue18/Cuentacuentos/tree/master/resultados_sistemas/cuentos_segundo_experimento).
 [Audios generados del cuento demostrativo (6 voces) ](https://github.com/kerenmitsue18/Cuentacuentos/tree/master/resultados_sistemas/audios_primer_experimento).
 [Audios generados del segundo experimento ](https://github.com/kerenmitsue18/Cuentacuentos/tree/master/resultados_sistemas/audios_segundo_experimento).
