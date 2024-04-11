@@ -1,0 +1,5 @@
+{
+    "titulo": "El Regalo de la Equidad",
+    "personajes": ["Ricardo", "Diego", "Andrés"],
+    "contenido": "En un pequeño pueblo costero, Ricardo, un pescador, enseñaba a Diego, un niño transgénero, a reparar las redes de pesca. Mientras trabajaban, Andrés, un niño con discapacidad en una mano, se acercó curioso. Ricardo les explicó cómo cada uno, independientemente de sus diferencias, podía contribuir al bienestar de la comunidad. Juntos, pescaron y compartieron historias de igualdad y respeto. Al atardecer, Ricardo les regaló a Diego y Andrés un par de amuletos tallados en madera, símbolos de la equidad y la aceptación. Desde entonces, los tres amigos promovieron la igualdad en su pueblo, demostrando que la verdadera riqueza reside en la diversidad y la inclusión."
+}

@@ -1,0 +1,5 @@
+{
+    "titulo": "El Tesoro del Bosque",
+    "personajes": ["Juanita", "Fernanda", "Tita"],
+    "contenido": "En lo profundo del bosque, Juanita, una artesana de corazón noble, paseaba entre los árboles, admirando la belleza de la naturaleza. A su lado, Fernanda, una niña con discapacidad visual, exploraba el mundo con sus manos y su corazón valiente. De repente, escucharon un suave murmullo proveniente de un seto cercano. Intrigadas, se acercaron y descubrieron a Tita, una tortuga aventurera. Tita les contó sobre un tesoro escondido en el bosque, un lugar mágico lleno de vida y color. Decididas a encontrarlo, las tres emprendieron una búsqueda. Durante su travesía, aprendieron la importancia de cuidar el medio ambiente, recogiendo la basura que encontraban en su camino y respetando a todas las criaturas que habitaban el bosque. Finalmente, llegaron al corazón del bosque, donde descubrieron el verdadero tesoro: la armonía entre la naturaleza y quienes la protegen. Con sus corazones rebosantes de gratitud, regresaron a casa, decididas a seguir cuidando y preservando su hogar natural."
+}

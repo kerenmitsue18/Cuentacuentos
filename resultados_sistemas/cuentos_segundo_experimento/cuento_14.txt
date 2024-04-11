@@ -1,0 +1,5 @@
+{
+    "titulo": "El Jardín de la Comunidad",
+    "personajes": ["Andrés", "Diego", "Sofia"],
+    "contenido": "En el corazón de un pueblo mexicano, Andrés, Diego y Sofía cuidaban juntos el jardín de la comunidad. A pesar de sus diferencias, se respetaban mutuamente. Andrés, con una mano menos, plantaba con determinación. Diego, transgénero, regaba con amor y creatividad. Sofía, la curandera, cuidaba las plantas con sabiduría ancestral. Un día, una tormenta amenazó con destruir su querido jardín. Unidos, enfrentaron el desafío. Andrés protegió las plantas con su cuerpo. Diego utilizó sus habilidades artísticas para construir refugios improvisados. Sofía calmó la tormenta con sus conocimientos sobre la naturaleza. Al final, el jardín sobrevivió, más fuerte que nunca. Aprendieron que el respeto por las diferencias es la base de la verdadera comunidad, donde cada uno aporta su singularidad para el bien común."
+}

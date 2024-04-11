@@ -1,0 +1,5 @@
+{
+    "titulo": "La Lección de Tolerancia",
+    "personajes": ["Tita", "Andrés", "Ricardo"],
+    "contenido": "En una tranquila playa mexicana, Tita la tortuga, Andrés el niño y Ricardo el pescador se encontraron. Tita, siempre curiosa, preguntó a Andrés sobre su mano. Con una sonrisa, Andrés explicó cómo había aprendido a vivir con su discapacidad. Ricardo compartió historias de sus aventuras en el mar. Admirada por su valentía, Tita propuso una carrera. Aunque Andrés tenía una desventaja física, Tita lo alentó a correr junto a ellos. Mientras la carrera avanzaba, Tita y Ricardo observaron admirados cómo Andrés demostraba determinación y perseverancia. Finalmente, Andrés cruzó la línea de meta, recibiendo aplausos y admiración. Tita, Ricardo y Andrés aprendieron que el respeto no se basa en la apariencia, sino en la valentía y el espíritu. Juntos, celebraron su amistad y la lección de tolerancia que habían aprendido en la playa esa tarde."
+}

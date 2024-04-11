@@ -1,0 +1,5 @@
+{
+    "titulo": "El Bosque Encantado",
+    "personajes": ["Isabella", "Ximena", "Tita"],
+    "contenido": "En el corazón de un bosque misterioso, Isabella, una apasionada animalista, Ximena, una niña con síndrome de down, y Tita, una aventurera tortuga, se encontraron. Juntas, exploraron los senderos verdes, admirando la belleza de la naturaleza que las rodeaba. Isabella enseñó a Ximena sobre la importancia de cuidar a los animales, mientras Tita les mostraba los secretos escondidos del bosque. De repente, encontraron un río contaminado, donde los peces luchaban por sobrevivir. Con determinación, Isabella lideró la limpieza del río, mientras Ximena y Tita ayudaban con entusiasmo. Al final del día, el río volvió a brillar con vida. La lección resonó en sus corazones: el cuidado del medio ambiente es responsabilidad de todos, sin importar nuestras diferencias. Juntas, demostraron que la tolerancia y la colaboración pueden salvar nuestro mundo."
+}

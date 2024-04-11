@@ -1,0 +1,5 @@
+{
+    "titulo": "El Jardín de la Tolerancia",
+    "personajes": ["Fernanda", "Diego", "Isabella"],
+    "contenido": "En el tranquilo pueblo de Valle Verde, Fernanda, una niña con discapacidad visual, y Diego, un niño transgénero lleno de empatía, se encontraron en el jardín comunitario donde Isabella, una apasionada animalista, cuidaba de las plantas y los animales. A pesar de sus diferencias, se unieron en un proyecto para crear un hermoso jardín inclusivo donde todos pudieran sentirse bienvenidos. Fernanda sugería plantas aromáticas y texturas interesantes para que las personas con discapacidades visuales pudieran disfrutar del jardín a través del tacto y el olfato. Diego aportaba su creatividad para diseñar senderos accesibles y bancos coloridos donde cualquiera pudiera sentarse y descansar. Isabella cuidaba de los animales del jardín y promovía la importancia de respetar a todas las criaturas. Juntos, demostraron que la verdadera belleza reside en la diversidad y que el respeto y la tolerancia son las semillas que hacen florecer la armonía y la amistad en cualquier comunidad."
+}

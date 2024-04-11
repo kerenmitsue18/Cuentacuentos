@@ -1,0 +1,5 @@
+{
+    "titulo": "El Viaje de la Tolerancia",
+    "personajes": ["Tita", "Diego", "Emilio"],
+    "contenido": "Tita, la aventurera tortuga, decidió emprender un viaje por tierras lejanas. En su camino, conoció a Diego, un niño transgénero que también buscaba su lugar en el mundo. Juntos, compartieron historias de sus aventuras y sueños. Pronto, se encontraron con Emilio, un agricultor sabio y generoso. A pesar de sus diferencias, se unieron en amistad y respeto por las creencias y formas de vida de cada uno. Tita aprendió que la tolerancia es aceptar y valorar a quienes son diferentes a nosotros. Diego descubrió que la verdadera igualdad radica en la aceptación y el apoyo mutuo. Emilio comprendió que la diversidad enriquece nuestras vidas y comunidades. Al final de su viaje, se despidieron con corazones llenos de comprensión y amor por la diversidad que los rodeaba."
+}

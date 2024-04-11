@@ -1,0 +1,5 @@
+{
+    "titulo": "La Semilla de la Equidad",
+    "personajes": ["Tita", "Diego", "Emilio"],
+    "contenido": "En las colinas de un pequeño pueblo mexicano, Tita la tortuga, Diego el niño transgénero y Emilio el agricultor se encontraron en un inusual encuentro. Tita, siempre en busca de aventuras, tropezó con una semilla especial que brillaba con una luz mágica. Diego, con su espíritu creativo, sugirió plantar la semilla en un terreno comunitario, y Emilio, con su sabiduría en la tierra, ofreció su ayuda para cultivarla. Juntos, trabajaron en armonía, sin importar sus diferencias, nutriendo la semilla con amor y cuidado. Con el tiempo, la semilla creció en un árbol majestuoso que ofrecía sombra y refugio a todos en el pueblo. La comunidad, inspirada por la colaboración entre Tita, Diego y Emilio, aprendió el verdadero significado de la equidad: trabajar juntos, respetando y valorando las habilidades únicas de cada individuo, para crear un mundo más justo y próspero para todos."
+}

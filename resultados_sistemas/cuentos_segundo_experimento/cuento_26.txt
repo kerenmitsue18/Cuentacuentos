@@ -1,0 +1,5 @@
+{
+    "titulo": "El Secreto de la Montaña Verde",
+    "personajes": ["Andrés", "Ximena", "Sofía"],
+    "contenido": "En lo profundo de la Sierra Madre, donde los árboles susurran historias antiguas, vivían Andrés, un niño valiente con una discapacidad en una mano, y Ximena, una niña alegre con síndrome de Down. Juntos, exploraban los senderos de la montaña, admirando la belleza de la naturaleza. Un día, mientras jugaban cerca de un arroyo, encontraron a Sofía, una curandera sabia que cuidaba del equilibrio del bosque. Sofía les contó sobre un antiguo árbol mágico que protegía el bosque, pero su salud estaba deteriorándose debido a la contaminación del río. Con determinación, Andrés, Ximena y Sofía se unieron para limpiar el arroyo y plantar árboles nativos. Con el paso del tiempo, el agua del río se volvió cristalina y el bosque cobró vida nuevamente. Los tres amigos descubrieron el poder del trabajo en equipo y el cuidado del medio ambiente, dejando un legado de respeto y amor por la naturaleza."
+}

@@ -1,0 +1,5 @@
+{
+    "titulo": "El Juego de las Diferencias",
+    "personajes": ["Omar", "Fernanda", "Diego"],
+    "contenido": "En un animado barrio mexicano, Omar, Fernanda y Diego eran inseparables. A pesar de sus diferencias, su amistad era inquebrantable. Un día, mientras jugaban en el parque, encontraron un rompecabezas gigante. Aunque estaba diseñado para niños videntes, Omar propuso resolverlo juntos. Con su creatividad, Diego identificó las piezas por textura y forma, mientras Fernanda las colocaba en su lugar con precisión. Con risas y bromas, completaron el rompecabezas en tiempo récord. Luego, decidieron crear su propio juego: 'El Juego de las Diferencias'. En él, cada uno destacaba sus habilidades únicas. Omar, con su sentido del tacto, encontraba objetos escondidos. Fernanda, con su aguda audición, escuchaba sonidos distantes. Diego, con su perspectiva única, descubría detalles invisibles para los demás. Juntos, aprendieron que la verdadera tolerancia no solo acepta las diferencias, sino que las celebra. Al final del día, se dieron cuenta de que su diversidad los hacía más fuertes y unidos que nunca."
+}

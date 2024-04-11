@@ -1,0 +1,5 @@
+{
+    "titulo": "El Viaje de Tita",
+    "personajes": ["Tita", "Carlos", "Emilio"],
+    "contenido": "En un remoto pueblo de la costa mexicana, Tita, una intrépida tortuga aventurera, soñaba con explorar más allá de las playas de su hogar. Un día, mientras se preparaba para embarcarse en su aventura, se encontró con Carlos, un niño curioso con un espíritu explorador similar al suyo. Juntos, decidieron emprender un viaje hacia el interior del país en busca de nuevas experiencias. En su camino, se encontraron con Emilio, un agricultor sabio y experimentado que les mostró la belleza y la importancia de la tierra que cultivaba. A medida que avanzaban en su viaje, Tita, Carlos y Emilio se enfrentaron a desafíos y obstáculos, pero siempre se apoyaron mutuamente con respeto y solidaridad. A través de sus aventuras, aprendieron que la equidad significa tratar a todos con igualdad y respeto, independientemente de sus diferencias. Al final de su viaje, regresaron a su pueblo con corazones llenos de nuevas amistades, experiencias y una comprensión más profunda del valor de la equidad y la diversidad en su comunidad."
+}
