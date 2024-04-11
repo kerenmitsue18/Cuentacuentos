@@ -15,8 +15,7 @@ cuentos dirigidos a niños de habla hispana.
 - Evaluación de la entonación, velocidad y calidad de pronunciación en las narrativas de los cuentos.
 - Proporcionar el ***código fuente*** y los archivos complementarios para fines no comerciales.
 
-## Palabras clave
-> ChatGPT, Cuenta cuentos, Discapacidad, IA Generativa, Inclusión
+> Keywords: ChatGPT, Cuenta cuentos, Discapacidad, IA Generativa, Inclusión
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
 
@@ -43,3 +42,9 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Publicaciones
+Puedes acceder a ver un ejemplo de funcionamiento del sistema en el siguiente video [Ejemplo del cuento](https://youtu.be/KxRVmPbGPlc)
+
+> Elaborado por: Keren Mitsue Ramírez Vergara
+
