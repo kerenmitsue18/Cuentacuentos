@@ -109,14 +109,23 @@ A partir de los cuentos generados, se calcularon todos los índices de Jaccard e
 Para comparar las diversas voces proprocionadas por OpenAI, se analizaron las siguientes características: el tiempo de generación del cuento, el tono de voz, la variación de entonación, la velocidad del habla y la claridad de pronunciación.
 
 #### Tiempos de generación
-|  Microcuento | Cuento Flash   |       Cuento Corto | 
-| -------------------------- | -------------------------- | -------------------------- |
-| Creación (prom)      | Es el prompt anteriormente planteado     |
-| Modelo   | Modelo gpt-3.5-turbo-instruct.   |
-| Numero de tokens   | 2048 tokens  |
-| Temperatura  | 0.5  |
+|   Descripción   |    Micro cuento   |    Cuento Flash     |    Cuento Corto   |
+| -------------------------- | -------------------------- | -------------------------- | -------------------------- |
+| Creación (prom) |  9.31s  | 11.82s    |    12.49s    |
+| Creación (std)  |  1.03s  | 2.41s     |    1.82s     |
+| Duración (prom) |  58s    | 66s       |    74s       |
+| Duración (std)  |  13s    | 10s       |    14s       |
 
+#### Evaluación de tono de voz
 
+| Voz sintética | Descripción                    |
+| ------------- | ------------------------------ |
+| Alloy   | Emite un tono amigable.    |
+| Fable   | Se caracteriza por una tonalidad seria, sin generar un sentimiento en particular.   |
+| Echo   | Presenta una tonalidad seria con un enfoque narrativo.  |
+| Onyx  | Su tono de voz es grave y pausado, ideal para la narración de cuentos.  |
+| Nova  | Aunque posee una voz amigable, se percibe poco natural.  |
+| Shimmer  | Presenta una voz amigable y natural, ideal para la narración de cuentos.   |
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
