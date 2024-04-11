@@ -1,5 +1,7 @@
 # IncluAventuras: Cuentacuentos basado en IA generativa para promover la inclusión de personas con discapacidades
 
+
+## Resumen
 Se muestra el diseño y la implementación de un sistema basado en inteligencia artificial generativa (ChatGPT) para la creación automática  de
 cuentos dirigidos a niños de habla hispana.
 
@@ -14,6 +16,10 @@ cuentos dirigidos a niños de habla hispana.
 - Evaluación del sistema en cuanto a la diversidad de historias generadas.
 - Evaluación de la entonación, velocidad y calidad de pronunciación en las narrativas de los cuentos.
 - Proporcionar el ***código fuente*** y los archivos complementarios para fines no comerciales.
+
+## Metodología aplicada
+
+Puedes acceder a ver un ejemplo de funcionamiento del sistema en el siguiente video [Ejemplo del cuento](https://youtu.be/KxRVmPbGPlc)
 
 > Keywords: ChatGPT, Cuenta cuentos, Discapacidad, IA Generativa, Inclusión
 
@@ -44,7 +50,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 ## Publicaciones
-Puedes acceder a ver un ejemplo de funcionamiento del sistema en el siguiente video [Ejemplo del cuento](https://youtu.be/KxRVmPbGPlc)
+
 
 > Elaborado por: Keren Mitsue Ramírez Vergara
 
