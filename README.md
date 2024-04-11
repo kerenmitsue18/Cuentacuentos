@@ -20,6 +20,7 @@ de voz, entonación, velocidad y calidad de pronunciación. El sistema crea hist
 
 ## Metodología aplicada
 
+
 Puedes acceder a ver un ejemplo de funcionamiento del sistema en el siguiente video [Ejemplo del cuento](https://youtu.be/KxRVmPbGPlc)
 
 > Keywords: ChatGPT, Cuenta cuentos, Discapacidad, IA Generativa, Inclusión
