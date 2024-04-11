@@ -86,8 +86,7 @@ Para implementar la voz sintética, se implementó el TTS (Text to Speech) de Op
 ## Resultados y discusión
 
 ### Prueba de funcionamiento 
-
-Puedes acceder a ver un ejemplo de funcionamiento del sistema en el siguiente video [Ejemplo del cuento](https://youtu.be/KxRVmPbGPlc)
+La prueba de funconamiento del sistema consistió en ingresar parámetros elegidos por el usuario. Para propósitos demostrativos se seleccionó un tipo de cuento ***microcuento***; se eligieron 3 personajes: ***Andrés*** (niño con discapacidad en una mano), ***Fernanda*** (niña con discapacidad visual) y ***Omar*** (Un niño con ceguera), finalmente se eligió el tema de la ***tolerancia***. Puedes acceder a ver el ejemplo en el video [Ejemplo del cuento](https://youtu.be/KxRVmPbGPlc)
 
 ### Medición de similitudes entre cuentos 
 
