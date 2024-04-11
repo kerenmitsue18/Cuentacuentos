@@ -167,33 +167,25 @@ Para comparar las diversas voces proprocionadas por OpenAI, se analizaron las si
 | Nova  | La pronunciación no es precisa, con errores notables en palabras, especialmente en los nombres de los personajes. Además, de los 5 cuentos analizados con esta voz, 4 cambiaron de idioma durante la reproducción.  |
 | Shimmer  | Esta voz en español tiene una pronunciación clara y precisa, aunque presenta dificultades con algunos nombres de personajes como "Isabella" y "Ximena".    |
 
-Conclusiones
+## Conclusiones
+La IAG está siendo usada actualmente como una herramienta valiosa para atender una plétora de problemáticas de diversos tipos. Entre estos desafíos, la discapacidad es una de las problemáticas más significativas en América Latina y el Caribe, afectando a más de 85 millones de personas en la región. En este artículo, se propuso el diseño de un sistema de generación de cuentos (cuenta cuentos) para niños de habla hispana basado en IAG. El sistema permite la creación de cuentos personalizados en los que participan personajes infantiles con algún tipo de discapacidad.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
+La inclusión de personajes con discapacidades en las historias es un factor crucial que contribuye significativamente a promover la diversidad y la igualdad desde una edad temprana. Aprovechando las capacidades de la IAG sobre la que se basa el sistema, se generan cuentos únicos en cada solicitud, incluso con los mismos parámetros, lo que proporciona una experiencia variada y enriquecedora en cada uso. En las diferentes pruebas realizadas al sistema, se realizó una comparación cuantitativa de la diversidad de las historias generadas, aplicando para ello el criterio del índice de Jaccard. Los valores encontrados confirman la poca similitud entre los cuentos analizados.
 
-## Development server
+Además se evaluó la entonación, velocidad y calidad de pronunciación de las voces sintéticas, encontrándose que todavía existen áreas de oportunidad en la tecnología del estado del arte para la generación de audio en la narrativa de las historias.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+A pesar de los desafíos presentes, como el consumo de recursos durante el servicio de conversión de texto a voz, la falta de naturalidad en la voz, los errores en la pronunciación y la latencia del sistema, se puede afirmar que la propuesta presentada es novedosa y podría ser útil para los educadores que buscan implementar herramientas de educación inclusiva en sus aulas.
 
-## Code scaffolding
+Actualmente, se continúa trabajando en el desarrollo de otros sistemas que ayuden a cerrar las brechas y mejorar la accesibilidad y la calidad de vida para las personas con discapacidad.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Implementación
 
-## Build
+El proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Ejecute `ng serve` para un servidor de desarrollo. Navigue hasta `http://localhost:4200/`. La aplicación se recargará automáticamente si cambia alguno de los archvosentes.
+- Ejecute `ng generate component component-name` para generar un nuevo componente. También puede usar `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Para obtener más ayuda sobre Angular CLI, use `ng help` o consulte la página [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 ## Publicaciones
 
