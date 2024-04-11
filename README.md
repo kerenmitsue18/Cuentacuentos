@@ -21,6 +21,11 @@ de voz, entonación, velocidad y calidad de pronunciación. El sistema crea hist
 ## Metodología aplicada
 
 El sistema cuenta con una estructura general de un prompt adecuado que orienta al sistema hacia la generación de resultados coherentes. Por lo que se definieron tres elementos funadmentales de dicha estructura que el usuario puede personalizar. Los parámetros son los siguientes: 
+| Parámetro | Descripción                    |
+| ------------- | ------------------------------ |
+| `Tipo de cuento`      | Se refiere a la extensión del cuento. Este puede ser microcuento (menos de 200 palabras), cuento flash ()  o cuento corto ()     |
+| `Personajes`   |  Se refiere a las características físicas y de personalidad de cada uno de los personajes. Cada historis puede tener un máximo de tres personajes    |
+| `Tema`   | Se tarat del contexto o tema en el que se desarrollará la historia.     |
 
 A continuación se muestra un resumen gráfico de la metodología empleada. 
 
