@@ -93,7 +93,12 @@ Para medir la diversidad de contenidos en los cuentos generados, es decir, que t
 - **Primer experimento:** Mantener invariables al tipo de cuento, personajes y tema, generando así 30 cuentos con la misma temática.
 - **Segundo experimento:** Colocar el tipo de cuento, personajes y tema de manera aleatoria, generando así 30 cuentos con diferentes parámetros.
 
-Los resultados de cada uno de los experimentos los puedes consultar en -**
+Los resultados de cada uno de los experimentos los puedes consultar en la carpeta ***resultados_sistemas***.
+[Cuentos generados del primer experimento ](https://github.com/kerenmitsue18/Cuentacuentos/tree/master/resultados_sistemas/cuentos_primer_experimento).
+[Cuentos generados del segundo experimento ](https://github.com/kerenmitsue18/Cuentacuentos/tree/master/resultados_sistemas/cuentos_segundo_experimento).
+[Audios generados del cuento demostrativo (6 voces) ](https://github.com/kerenmitsue18/Cuentacuentos/tree/master/resultados_sistemas/audios_primer_experimento).
+[Audios generados del segundo experimento ](https://github.com/kerenmitsue18/Cuentacuentos/tree/master/resultados_sistemas/audios_segundo_experimento).
+
 
 A partir de los cuentos generados, se calcularon todos los índices de Jaccard entre pares de cuentos, tanto del primer como del segundo experimento. Como se observa graficamente a continuación:
 
@@ -107,7 +112,7 @@ A partir de los cuentos generados, se calcularon todos los índices de Jaccard e
 
 
 ### Análisis de las voces en la reproducción de cuentos
-Para comparar las diversas voces proprocionadas por OpenAI, se analizaron las siguientes características: el tiempo de generación del cuento, el tono de voz, la variación de entonación, la velocidad del habla y la claridad de pronunciación.
+Para comparar las diversas voces proprocionadas por OpenAI, se analizaron las siguientes características: el tiempo de generación del cuento, el tono de voz, la variación de entonación, la velocidad del habla y la claridad de pronunciación; los datos que se utilizaron para analizar la voz fueron los contenidos de los 30 cuentos que se eligieron aleatoriamente (segundo experimento). En total, se obtuvieron 8 archivos de audio para historias de tipo micro cuento, 11 para cuento flash y 11 para cuento corto.
 
 #### Tiempos de generación
 |   Descripción   |    Micro cuento   |    Cuento Flash     |    Cuento Corto   |
