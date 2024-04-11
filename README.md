@@ -20,7 +20,7 @@ de voz, entonación, velocidad y calidad de pronunciación. El sistema crea hist
 
 ## Metodología aplicada
 
-El sistema cuenta con una estructura general de un prompt adecuado que orienta al sistema hacia la generación de resultados coherentes. Por lo que se definieron tres elementos funadmentales de dicha estructura que el usuario puede personalizar. Los parámetros son los siguientes: 
+El sistema cuenta con una estructura general de un prompt adecuado que orienta al sistema hacia la generación de resultados coherentes. Por lo que se definieron tres elementos fundamentales de dicha estructura, que el usuario puede personalizar. Los parámetros son los siguientes: 
 | Parámetro | Descripción                    |
 | ------------- | ------------------------------ |
 | `Tipo de cuento`      | Se refiere a la extensión del cuento. Este puede ser microcuento (menos de 200 palabras), cuento flash (200 - 700 palabras)  o cuento corto (700 a 2,000 palabras)     |
