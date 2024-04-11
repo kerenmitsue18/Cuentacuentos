@@ -57,10 +57,31 @@ Una vez seleccionados los parámetros, el sistema genera el prompt correspondien
         return this.prompt;
     }
 
+    getCharacters(): String {
+        var characters_string: string = "";
+        for (const character of this.characters) {
+            characters_string += " " + character.nombre + " un " +
+                character.oficio + ". \nQue tiene las siguientes características físicas: \n" + character.descripcion_fisica +
+                "\nSu personalidad es: \n" + character.descripcion_personalidad + "\n" +
+                "Evita colocar en el cuento datos que ya se han mencionado en el prompt, estos son solo una idea de como son los personajes, no es necesario colocar sus     características.";
+        }
+        return characters_string
+    }
+
+
 ```
 
+Para la generación de las historias se utilizó el chat completions de openAI, usando las siguiente configuración de parámetros:
+| Parámetro | Valor asignado                    |
+| ------------- | ------------------------------ |
+| Mensaje      | Es el prompt anteriormente planteado     |
+| Modelo   | Modelo gpt-3.5-turbo-instruct.   |
+| Numero de tokens   | 2048 tokens  |
+| Temperatura  | 0.5  |
 
+El chat completions devuelve el contenido generado en formato JSON. La respuesta obtenida es procesada por la aplicación, extrayendo los contenidos y mostrándolos en la interfaz de usuario (bloque 7 de la arquitectura). Además de mostrar el cuento en forma te texto, el sistema desarrollado permite narrar las historias con el uso de voces sintéticas obtenidas igualmente de openAI. 
 
+Para implementar la voz sintética, se implementó el TTS (Text to Speech) de OpenAI (Bloque 6A de la arquitectura). 
 
 Puedes acceder a ver un ejemplo de funcionamiento del sistema en el siguiente video [Ejemplo del cuento](https://youtu.be/KxRVmPbGPlc)
 
