@@ -79,9 +79,8 @@ Para la generación de las historias se utilizó el chat completions de openAI, 
 | Numero de tokens   | 2048 tokens  |
 | Temperatura  | 0.5  |
 
-El chat completions devuelve el contenido generado en formato JSON. La respuesta obtenida es procesada por la aplicación, extrayendo los contenidos y mostrándolos en la interfaz de usuario (bloque 7 de la arquitectura). Además de mostrar el cuento en forma te texto, el sistema desarrollado permite narrar las historias con el uso de voces sintéticas obtenidas igualmente de openAI. 
+El chat completions devuelve el contenido generado en formato JSON. La respuesta obtenida es procesada por la aplicación, extrayendo los contenidos y mostrándolos en la interfaz de usuario (bloque 7 de la arquitectura). Además de mostrar el cuento en forma te texto, el sistema desarrollado permite narrar las historias con el uso de voces sintéticas obtenidas igualmente de openAI. Para implementar la voz sintética, se implementó el TTS (Text to Speech) de OpenAI (Bloque 6A de la arquitectura). 
 
-Para implementar la voz sintética, se implementó el TTS (Text to Speech) de OpenAI (Bloque 6A de la arquitectura). 
 
 ## Resultados y discusión
 
@@ -92,7 +91,9 @@ Puedes acceder a ver el ejemplo en el video [Ejemplo del cuento](https://youtu.b
 ### Medición de similitudes entre cuentos 
 Para medir la diversidad de contenidos en los cuentos generados, es decir, que tan diferentes son las historias que genera el sistema; se realizaron dos experimentos.
 - **Primer experimento:** Mantener invariables al tipo de cuento, personajes y tema, generando así 30 cuentos con la misma temática.
-- **Segundo experimento:** 
+- **Segundo experimento:** Colocar el tipo de cuento, personajes y tema de manera aleatoria, generando así 30 cuentos con diferentes parámetros.
+
+Los resultados de cada uno de los experimentos los puedes consultar en -**
 
 A partir de los cuentos generados, se calcularon todos los índices de Jaccard entre pares de cuentos, tanto del primer como del segundo experimento. Como se observa graficamente a continuación:
 
@@ -149,6 +150,19 @@ Para comparar las diversas voces proprocionadas por OpenAI, se analizaron las si
 | Onyx  | La velocidad es constante, y tranquila, lo que se plantea que es la voz más adecuada para la narración de cuentos e historias.  |
 | Nova  | Muestra un ritmo variable, con momentos de rápida pronunciación seguido de momentos más lentos.  |
 | Shimmer  | Mantiene una velocidad constante a lo largo del audio.    |
+
+#### Claridad de pronunciación
+
+| Voz sintética | Descripción                    |
+| ------------- | ------------------------------ |
+| Alloy   | La pronunciación de las palabras contiene un tono extranjero, arrastrando ciertos sonidos. específiamente en palabras como "Respetar", "perspectiva" y "Ximena", que no se pronucian correctamente en español.    |
+| Fable   | Se detectaron palabras que no se pronuncian correctamente en español, como "Isabella" y "respeto", e incluso hubo casos en los que no se terminaron de decir algunas palabras, como "igualdad"  |
+| Echo   | Se observaron errores de pronunciación en palabras en español como "hábil", "Ximena", "rumoreaba", "baille", "barrera" y "Sofía". A pesar de estos errores, esta voz no suena tan extranjera como otras.  |
+| Onyx  | La pronunciación de las palabras es clara y precisa,unque presenta dificultades con algunos nombres de personajes como "Isabella" y "Ximena". |
+| Nova  | La pronunciación no es precisa, con errores notables en palabras, especialmente en los nombres de los personajes. Además, de los 5 cuentos analizados con esta voz, 4 cambiaron de idioma durante la reproducción.  |
+| Shimmer  | Esta voz en español tiene una pronunciación clara y precisa, aunque presenta dificultades con algunos nombres de personajes como "Isabella" y "Ximena".    |
+
+Conclusiones
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
 
