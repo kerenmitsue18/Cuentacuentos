@@ -4,7 +4,7 @@
 ## Resumen
 Se presenta el diseño completo y la evaluación de un sistema cuentacuentos digital, destinado a niños de entre 4 y 6 años en Latinoamérica. Este sistema está basado en inteligencia artificial generativa. Se realizaron pruebas que abarcaron el funcionamiento del sistema, la diversidad de contenidos, los tiempos de generación, la evaluación
 de voz, entonación, velocidad y calidad de pronunciación. El sistema crea historias diferentes, que promueven valores en los niños de habla hispana, fomentando la importancia de la inclusión de personas con capacidades diferentes. Cabe destacar que en ningún cuento se encontró contenido no apto para niños.
-
+> Keywords: ChatGPT, Cuenta cuentos, Discapacidad, IA Generativa, Inclusión
 
 ## Objetivos
 1. Inculcar en la niñez los valores de respeto, tolerancia y empatía hacia personas con discapacidad a través de historias.
@@ -83,9 +83,16 @@ El chat completions devuelve el contenido generado en formato JSON. La respuesta
 
 Para implementar la voz sintética, se implementó el TTS (Text to Speech) de OpenAI (Bloque 6A de la arquitectura). 
 
+## Resultados y discusión
+
+### Prueba de funcionamiento 
+
 Puedes acceder a ver un ejemplo de funcionamiento del sistema en el siguiente video [Ejemplo del cuento](https://youtu.be/KxRVmPbGPlc)
 
-> Keywords: ChatGPT, Cuenta cuentos, Discapacidad, IA Generativa, Inclusión
+### Medición de similitudes entre cuentos 
+
+### Análisis de las voces en la reproducción de cuentos
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
 
