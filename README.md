@@ -1,4 +1,19 @@
-# AppStories
+# IncluAventuras: Cuentacuentos basado en IA generativa para promover la inclusión de personas con discapacidades
+
+Se muestra el diseño y la implementación de un sistema basado en inteligencia artificial generativa (ChatGPT) para la creación automática  de
+cuentos dirigidos a niños de habla hispana.
+
+## Objetivos
+1. Inculcar en la niñez los valores de respeto, tolerancia y empatía hacia personas con discapacidad a través de historias.
+2. Promover las habilidades de lectura y comprensión en niños de habla hispana.
+
+## Contribuciones
+- Alternativa para abordar el desafío de fomentar la inclusión de personas con discapacidades en América Latina, mediante una solución tecnológica del estado del arte.
+- Diseño completo de un sistema de software basado en IAG orientado a generar y contar historias para niñas y niños de habla hispana.
+- Diseño de un prompt especialmente diseñado para generar distintos cuentos que promueven valores de empatía y respeto hacia personas con discapacidad.
+
+## Palabras clave
+> ChatGPT, Cuenta cuentos, Discapacidad, IA Generativa, Inclusión
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
 
