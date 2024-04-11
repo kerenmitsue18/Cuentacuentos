@@ -20,6 +20,10 @@ de voz, entonación, velocidad y calidad de pronunciación. El sistema crea hist
 
 ## Metodología aplicada
 
+A continuación se muestra un resumen gráfico de la metodología empleada. 
+
+<img src="https://raw.githubusercontent.com/kerenmitsue18/Nube_Dinamica_Palabras/main/Metodolog%C3%ADa.png" alt="Metodología palicada" width="550px" align="center">
+
 
 Puedes acceder a ver un ejemplo de funcionamiento del sistema en el siguiente video [Ejemplo del cuento](https://youtu.be/KxRVmPbGPlc)
 
