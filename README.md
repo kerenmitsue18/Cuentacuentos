@@ -20,6 +20,8 @@ de voz, entonación, velocidad y calidad de pronunciación. El sistema crea hist
 
 ## Metodología aplicada
 
+El sistema cuenta con una estructura general de un prompt adecuado que orienta al sistema hacia la generación de resultados coherentes. Por lo que se definieron tres elementos funadmentales de dicha estructura que el usuario puede personalizar. Los parámetros son los siguientes: 
+
 A continuación se muestra un resumen gráfico de la metodología empleada. 
 
 <img src="https://github.com/kerenmitsue18/Cuentacuentos/blob/master/Diagrama_cuentacuentos.png" alt="Metodología aplicada" width="550px" align="center">
