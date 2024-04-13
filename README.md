@@ -89,9 +89,9 @@ La prueba de funconamiento del sistema consistió en ingresar parámetros elegid
 Puedes acceder a ver el ejemplo en el video [Ejemplo del cuento](https://youtu.be/KxRVmPbGPlc)
 
 Aquí hay otros ejemplos de los cuales puedes visualizar:
-[El respeto en la cancha](https://youtu.be/LJlufk5BuFs)
+[El viaje de tita](https://youtu.be/LJlufk5BuFs)
 [El juego de las diferencias](https://youtu.be/Na1OakPW_JE)
-[El viaje de tita](https://youtu.be/xcFAF3wXioU)
+[El respeto en la cancha](https://youtu.be/xcFAF3wXioU)
 
 
 
