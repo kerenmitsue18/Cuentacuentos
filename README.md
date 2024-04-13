@@ -85,15 +85,13 @@ El chat completions devuelve el contenido generado en formato JSON. La respuesta
 ## Resultados y discusión
 
 ### Prueba de funcionamiento 
-La prueba de funconamiento del sistema consistió en ingresar parámetros elegidos por el usuario. Para propósitos demostrativos se seleccionó un tipo de cuento ***microcuento***; se eligieron 3 personajes: ***Andrés*** (niño con discapacidad en una mano), ***Fernanda*** (niña con discapacidad visual) y ***Omar*** (Un niño con ceguera), finalmente se eligió el tema de la ***tolerancia***. La voz con la que se reproduce el cuento es con la voz ***fable*** de openAI. 
+se realizó una prueba de funconamiento del sistema, donde el usuario ingresó parámetros personalizados. Para propósitos demostrativos se seleccionó un tipo de cuento ***microcuento***; se eligieron 3 personajes: ***Andrés*** (niño con discapacidad en una mano), ***Fernanda*** (niña con discapacidad visual) y ***Omar*** (Un niño con ceguera), finalmente se eligió el tema de la ***tolerancia***. La voz con la que se reproduce el cuento es con la voz ***fable*** de openAI. 
 Puedes acceder a ver el ejemplo en el video [Ejemplo del cuento](https://youtu.be/KxRVmPbGPlc)
 
-Aquí hay otros ejemplos de los cuales puedes visualizar:
+Además, hay otros ejemplos disponibles para visualizar, como
 [El viaje de tita](https://youtu.be/LJlufk5BuFs)
 [El juego de las diferencias](https://youtu.be/Na1OakPW_JE)
 [El respeto en la cancha](https://youtu.be/xcFAF3wXioU)
-
-
 
 ### Medición de similitudes entre cuentos 
 Para medir la diversidad de contenidos en los cuentos generados, es decir, que tan diferentes son las historias que genera el sistema; se realizaron dos experimentos.
