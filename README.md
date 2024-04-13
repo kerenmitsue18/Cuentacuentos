@@ -194,6 +194,7 @@ Para obtener más ayuda sobre Angular CLI, use `ng help` o consulte la página [
 
 ## Publicaciones
 
+Cuentacuentos basado en IA generativa para promover la inclusión de personas con discapacidades.
 
-> Elaborado por: Keren Mitsue Ramírez Vergara
+> Elaborado por: Keren Mitsue Ramírez Vergara, Asdrúbal López-Chau, Rafael Rojas Hernández
 
