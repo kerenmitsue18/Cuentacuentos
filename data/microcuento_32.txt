@@ -1,5 +1,0 @@
-{
-"titulo":"El Jardín de los Sentidos",
-"personajes":["Fernanda","Isabella","Carlos"],
-"contenido":"En un pequeño pueblo rodeado de montañas, se encontraba el misterioso 'Jardín de los Sentidos'. Fernanda, con sus lentes de botella, anhelaba explorarlo. Isabella, con su mochila repleta de esencias naturales, y Carlos, con su espíritu aventurero, aceptaron el desafío. Al entrar, un aroma a flores y tierra húmeda los envolvió, mientras el suave murmullo del arroyo los guiaba. Fernanda, con su aguda percepción, sintió cada textura bajo sus dedos, mientras Isabella identificaba las plantas por su aroma. Carlos, con sus ojos curiosos, describía el paisaje con detalle. Juntos, descubrieron un mundo donde la discapacidad de Fernanda se volvía irrelevante. Cada uno contribuía con sus habilidades únicas, formando un equipo imparable. En ese jardín, aprendieron que la tolerancia no es solo aceptar las diferencias, sino celebrarlas y utilizarlas para enriquecerse mutuamente. Al salir, llevaban consigo la lección de que, en la diversidad, radica la verdadera belleza del mundo." 
-}

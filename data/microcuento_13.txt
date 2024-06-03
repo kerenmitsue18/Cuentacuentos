@@ -1,5 +1,0 @@
-{
-"titulo":"El Jardín de los Sentidos",
-"personajes":["Fernanda","Isabella","Carlos"],
-"contenido":"En el corazón de un colorido jardín tropical, Fernanda, Isabella y Carlos se encontraron bajo la sombra de un árbol centenario. Fernanda, con sus lentes de botella, descubría el mundo a través del tacto y el sonido, mientras Isabella y Carlos admiraban la belleza de las flores y escuchaban el susurro de las hojas. Juntos, exploraron cada rincón del jardín, aprendiendo a apreciar la diversidad de la naturaleza y de las personas. Isabella compartió historias sobre la importancia de proteger a los animales, mientras Fernanda les enseñaba a percibir la belleza más allá de la vista. Carlos, con su espíritu aventurero, lideró el camino a través de senderos desconocidos, inspirando a sus amigos a enfrentar nuevos desafíos. En este jardín mágico, la tolerancia floreció como las flores en primavera, uniendo a los tres en una amistad sólida como las raíces del árbol que los cobijaba. Descubrieron que la verdadera riqueza está en aceptar y valorar las diferencias de cada ser humano, encontrando la belleza en la diversidad que los rodea." 
-}
