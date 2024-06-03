@@ -22,6 +22,11 @@ export class Character {
 
 
 export const characters: Character[] = [
+    new Character("6", 'Ricardo', 'Pescador',
+    'Hombre de mediana edad con piel bronceada por el sol, cabello oscuro, corto y alborotado, con ojos azul profundo, barba de candado con aspecto rústico y aventurero. Estatura promedio, complexión atlética y robusta.Viste con ropa cómoda y práctica como camisetas, pantalones cortos y botas de agua. ',
+    'Aventurero y apasionado.Paciente y observador. Conexión con la naturaleza. Comunitario y solidario. Contador de historias. Reflexivo y humilde',
+    '../assets/src/ricardo.jpg',
+    false),
 
 
     new Character("10", 'Fernanda', 'Discapacidad visual',
@@ -35,6 +40,12 @@ export const characters: Character[] = [
         'Apasionada y dedicada a su oficio de artesana. Es paciente y minuciosa. Tiene una sabiduría adquirida a lo largo de los años y una conexión profunda con la naturaleza.Es tranquila, reflexiva y muestra comprensión hacia los demás.',
         '../assets/src/juanita.jpg',
         false),
+        new Character("9", 'Diego', 'Historiador',
+        'Hombre de mediana edad con presencia serena y respetable, tez de tono medio, viste con trajes o con ropa formal, con cabello oscuro y con un poco de canas, ojos color marrón profundo y expresivos. Tiene una barba bien cuidada. ',
+        'Apasionado por la historia. Curioso y analítico. Respetuoso y humilde. Comunicador elocuente. Comprometido con la preservación cultural. Mentor y educador ',
+        '../assets/src/diego.jpg',
+        false),
+
 
     new Character("11", 'Andrés', 'Discapacidad en una mano',
         'Niño mexicano de cabello color negro y liso, sonrisa amable y contagiosa, ojos de tono café oscuro que expresan confianza y determinación. Nació sin una de sus manos. ',
@@ -47,11 +58,17 @@ export const characters: Character[] = [
         '../assets/src/carlos.jpg',
         false),
 
-    new Character("3", 'Sofia', 'Curandera',
+    new Character("3", 'Sofía', 'Curandera',
         'Mujer mexicana curandera, de piel cálida y arrugas suaves, tiene ojos oscuros que brillan, cabello largo color negro. Viste con ropa cómoda y colorida que refleja su conexión con la naturaleza y espiritualidad.',
         'Sabia y comprensiva. Empática y calmada. Respetuosa de la naturaleza y la cultura. Comprometida con el bienestar',
         '../assets/src/sofia.jpg',
         false),
+        new Character("12", 'Ximena', 'Niña con síndrome de dawn',
+        'Niña mexicana de cabello color oscuro, rizado y corto. Sus ojos son de un tono cálido y expresan curiosidad y ternura. Tiene rasgos faciales suaves y una expresión alegre que ilumina un rostro. Lleva ropa cómoda que refleja su personalidad alegre y su amor por la vida',
+        'Valentía. Optimista y alegre. Empático y solidario. Amistoso y cariñoso. Independiente y decidido',
+        '../assets/src/ximena.jpg',
+        false),
+
 
     new Character("4", 'Isabella', 'Animalista',
         'Chica Mexicana de tez morena, con un rostro suave y ojos cálidos y compasivos. Cabello largo y oscuro que cae en ondas naturales sobre sus hombros. Viste con camisas con mensajes a favor de los animales y pantalones vaqueros desgastados. Lleva una mochila que tiene cosas para defender a los animales. ',
@@ -59,23 +76,12 @@ export const characters: Character[] = [
         '../assets/src/isabella.jpg',
         false),
 
-    new Character("12", 'Ximena', 'Niña con síndrome de dawn',
-        'Niña mexicana de cabello color oscuro, rizado y corto. Sus ojos son de un tono cálido y expresan curiosidad y ternura. Tiene rasgos faciales suaves y una expresión alegre que ilumina un rostro. Lleva ropa cómoda que refleja su personalidad alegre y su amor por la vida',
-        'Valentía. Optimista y alegre. Empático y solidario. Amistoso y cariñoso. Independiente y decidido',
-        '../assets/src/ximena.jpg',
-        false),
-
+ 
 
     new Character("5", 'Emilio', 'Agricultor',
         'Hombre mexicano de edad mediana con tono de piel tostado por sol, cabello oscuro y rizado que lo cubre con un sombrero de agricultor, vestir con camisa de manga larga y pantalones gruesos, con botas de campo. ',
         'Trabajador y dedicado. Conexión con la tierra.Paciente, comunitario y generoso.Sabio y experimentado',
         '../assets/src/emilio.jpg',
-        false),
-
-    new Character("6", 'Ricardo', 'Pescador',
-        'Hombre de mediana edad con piel bronceada por el sol, cabello oscuro, corto y alborotado, con ojos azul profundo, barba de candado con aspecto rústico y aventurero. Estatura promedio, complexión atlética y robusta.Viste con ropa cómoda y práctica como camisetas, pantalones cortos y botas de agua. ',
-        'Aventurero y apasionado.Paciente y observador. Conexión con la naturaleza. Comunitario y solidario. Contador de historias. Reflexivo y humilde',
-        '../assets/src/ricardo.jpg',
         false),
 
     new Character("7", 'Tita', 'aventurera',
@@ -89,11 +95,5 @@ export const characters: Character[] = [
         'Alegre y optimista. Determinado y valiente. Empático y compresivo. Creativo y curioso. Amigo leal',
         '../assets/src/omar.jpg',
         false),
-
-    new Character("9", 'Diego', 'Tránsgenero',
-        'Niño mexicano con complexión delgada y atlética, tiene el color castaño claro y ligeramente ondulado, sus ojos son un tono avellana. Su rostro es ovalado y con mejillas sonrosadas, una sonrisa amable y contagiosa. Diego se viste de manera colorida y cómoda, no se preocupa por las normas de género en la vestimenta.',
-        'Empático y cariñoso. Creativo y artístico. Curioso y ávido aprendiz. Amigable y sociable. Seguro de sí mismo. Defensor de la igualdad',
-        '../assets/src/diego.jpg',
-        false)
-
+        
 ];

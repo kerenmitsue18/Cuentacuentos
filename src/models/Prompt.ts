@@ -33,6 +33,7 @@ export class Prompt {
             a lo largo del desarrollo del cuento).
             El contexto en el que se desenvuelven los personajes, debe ser variante.
             Si te es útil, puedes especificar lugares de latinoamérica.`;
+            console.log(this.prompt);
         return this.prompt;
     }
     
