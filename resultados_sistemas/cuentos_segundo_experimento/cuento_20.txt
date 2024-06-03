@@ -1,5 +1,17 @@
 {
-    "titulo": "El Respeto en la Cancha",
-    "personajes": ["Andrés", "Ximena", "Diego"],
-    "contenido": "En el campo de fútbol, Andrés, Ximena y Diego se preparaban para el gran partido del barrio. Andrés, con su único brazo, demostraba su habilidad en el campo, mientras Ximena y Diego lo alentaban desde la tribuna. Durante el juego, un jugador rival comenzó a burlarse de Andrés por su discapacidad. Ximena, indignada, estaba a punto de enfrentarse al agresor, pero Diego la detuvo. En lugar de responder con violencia, Diego se acercó al jugador rival y le explicó la importancia del respeto y la inclusión. Sorprendido por las palabras de Diego, el jugador se disculpó con Andrés y lo invitó a unirse al juego nuevamente. Andrés aceptó con una sonrisa, y juntos, los equipos jugaron con respeto y camaradería. Al final del partido, ambos equipos se reunieron para celebrar juntos, aprendiendo que el verdadero valor del juego radica en el respeto y la inclusión de todos, sin importar las diferencias."
+  "titulo": "El Valor del Respeto",
+  "personajes": ["Andrés", "Ximena", "Diego"],
+  "contenido": "En un pequeño pueblo en las montañas de México, vivían Andrés y Ximena. Andrés, a pesar de haber nacido sin una mano, siempre se mostraba optimista y decidido. Ximena, una niña con síndrome de Down, irradiaba alegría y amor por la vida. Ambos eran inseparables y compartían un lazo especial.
+
+Un día, Diego, el historiador del pueblo, organizó una excursión para los niños al antiguo templo maya en las cercanías. Diego, con su vasto conocimiento, les explicaba la importancia de la historia y el respeto por las culturas ancestrales.
+
+Durante la caminata, algunos niños empezaron a burlarse de Andrés y Ximena por sus diferencias. Diego, al notar la situación, decidió intervenir con una historia. “Hace muchos años,” comenzó, “los mayas creían que cada persona tenía un propósito especial en la vida, y que nuestras diferencias nos hacían únicos y valiosos.”
+
+Los niños escuchaban con atención. “El respeto,” continuó Diego, “significa valorar y apreciar las cualidades únicas de cada individuo. Andrés, con su valentía, y Ximena, con su alegría, nos enseñan todos los días el verdadero significado del respeto.”
+
+Los niños comenzaron a entender. Al llegar al templo, Andrés y Ximena se destacaron ayudando a los demás a comprender las historias que Diego contaba, mostrando una comprensión profunda y un respeto genuino por el lugar sagrado.
+
+Esa noche, alrededor de una fogata, Diego concluyó, “El respeto no solo se trata de cómo tratamos a los demás, sino también de reconocer el valor de cada persona, independientemente de sus diferencias.”
+
+Desde entonces, los niños del pueblo aprendieron a apreciar y respetar las cualidades únicas de Andrés y Ximena, fortaleciendo la amistad y la unidad entre todos. Así, el valor del respeto se convirtió en una parte fundamental de su comunidad, enriqueciendo sus vidas y su cultura."
 }
