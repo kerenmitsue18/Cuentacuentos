@@ -1,0 +1,5 @@
+{
+    "titulo": "El Viaje de las Luces",
+    "personajes": ["Fernanda", "Tita", "Omar"],
+    "contenido": "En una noche estrellada, Fernanda, Tita y Omar se aventuraron en el bosque con una misión especial: recolectar luciérnagas. Fernanda, con su aguda empatía, guiaba a Tita, quien exploraba con curiosidad cada rincón en busca de las luces titilantes. Omar, con su sonrisa luminosa, recogía con cuidado cada pequeña luciérnaga que encontraban. Juntos, formaban un equipo unido por el respeto y amor hacia la naturaleza. Mientras caminaban, Fernanda narraba historias sobre la importancia de conservar el medio ambiente, inspirando a Tita y Omar a proteger cada ser vivo. Al final de la noche, con frascos llenos de luces mágicas, regresaron a casa con el corazón rebosante de gratitud. En ese momento, comprendieron que cada pequeño gesto de cuidado hacia el medio ambiente ilumina el mundo con esperanza y alegría."
+}

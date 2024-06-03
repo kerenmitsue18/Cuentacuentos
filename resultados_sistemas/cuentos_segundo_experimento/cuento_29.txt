@@ -1,0 +1,5 @@
+{
+    "titulo": "El Tesoro del Respeto",
+    "personajes": ["Ricardo", "Sofia", "Ximena"],
+    "contenido": "En un pequeño pueblo pesquero junto al mar, vivía Ricardo, un pescador experimentado conocido por su respeto hacia el océano y sus criaturas. Un día, mientras reparaba su bote, encontró a Ximena, una niña con síndrome de Down, y a Sofia, la curandera del pueblo, en la playa. Ximena recogía conchas marinas mientras Sofia recolectaba hierbas medicinales. Impresionado por su conexión con la naturaleza, Ricardo les contó historias sobre la importancia del respeto por el mar y la tierra. Juntos, decidieron limpiar la playa de desechos, demostrando que el respeto hacia el medio ambiente es esencial para la supervivencia de todos. Al final del día, encontraron un cofre enterrado en la arena, no con monedas de oro, sino con la gratitud del océano y la tierra por su acto de bondad y respeto. Desde entonces, el pueblo aprendió a valorar y proteger su entorno, recordando siempre el tesoro más preciado: el respeto hacia la naturaleza y entre ellos mismos."
+}

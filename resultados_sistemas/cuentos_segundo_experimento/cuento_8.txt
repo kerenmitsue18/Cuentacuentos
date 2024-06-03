@@ -1,0 +1,5 @@
+{
+    "titulo": "El Encuentro en el Parque",
+    "personajes": ["Isabella", "Omar", "Juanita"],
+    "contenido": "En un soleado día de primavera, Isabella, la apasionada animalista, decidió visitar el parque local para concienciar a la comunidad sobre la importancia de proteger a los animales. Mientras repartía folletos, se encontró con Omar, un niño con ceguera que exploraba el parque con su bastón. Con curiosidad, Omar se acercó a Isabella, quien le explicó sobre su causa y cómo podía ayudar. A pesar de no poder ver, Omar escuchó atentamente y expresó su deseo de colaborar. Impresionada por su entusiasmo, Isabella le ofreció unirse a su grupo de activistas. Juntos, distribuyeron folletos en braile y sensibilizaron a más personas. Al final del día, se despidieron con una nueva amistad y el compromiso mutuo de trabajar juntos por un mundo más inclusivo y tolerante."
+}

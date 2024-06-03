@@ -1,0 +1,5 @@
+{
+    "titulo": "El Tejido del Respeto",
+    "personajes": ["Juanita", "Fernanda", "Sofia"],
+    "contenido": "En un pequeño pueblo mexicano, Juanita, una hábil artesana, teje con esmero tapices coloridos que cuentan historias de la naturaleza y la vida cotidiana. Un día, Fernanda, una niña valiente con discapacidad visual, visita su taller. Con curiosidad e inspiración, Fernanda explora cada textura y color con sus manos, mientras Juanita le cuenta las historias detrás de cada tejido. Impresionada por la habilidad y la paciencia de Juanita, Fernanda decide aprender a tejer. Con el tiempo, bajo la tutela amorosa de Juanita, Fernanda perfecciona su habilidad y crea sus propias obras maestras. Mientras tanto, Sofia, la curandera del pueblo, observa con admiración la conexión entre Juanita y Fernanda. Con sabiduría y comprensión, Sofia enseña a ambas mujeres el valor del respeto mutuo y la importancia de aprender unos de otros. En el taller de Juanita, el tejido del respeto entre generaciones y habilidades se entrelaza, creando un tapiz de amor y comprensión que perdurará para siempre en el corazón del pueblo."
+}

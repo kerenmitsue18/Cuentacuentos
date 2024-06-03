@@ -1,0 +1,5 @@
+{
+    "titulo": "El Respeto en la Cancha",
+    "personajes": ["Andrés", "Ximena", "Diego"],
+    "contenido": "En el campo de fútbol, Andrés, Ximena y Diego se preparaban para el gran partido del barrio. Andrés, con su único brazo, demostraba su habilidad en el campo, mientras Ximena y Diego lo alentaban desde la tribuna. Durante el juego, un jugador rival comenzó a burlarse de Andrés por su discapacidad. Ximena, indignada, estaba a punto de enfrentarse al agresor, pero Diego la detuvo. En lugar de responder con violencia, Diego se acercó al jugador rival y le explicó la importancia del respeto y la inclusión. Sorprendido por las palabras de Diego, el jugador se disculpó con Andrés y lo invitó a unirse al juego nuevamente. Andrés aceptó con una sonrisa, y juntos, los equipos jugaron con respeto y camaradería. Al final del partido, ambos equipos se reunieron para celebrar juntos, aprendiendo que el verdadero valor del juego radica en el respeto y la inclusión de todos, sin importar las diferencias."
+}

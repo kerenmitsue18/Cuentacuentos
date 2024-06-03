@@ -1,0 +1,5 @@
+{
+    "titulo": "El Respeto en la Playa",
+    "personajes": ["Ricardo", "Sofia", "Ximena"],
+    "contenido": "En una tranquila playa mexicana, Ricardo el pescador, Sofia la curandera y Ximena, una niña con síndrome de Down, se encontraron frente al mar al atardecer. Ricardo compartía historias de sus aventuras en alta mar, mientras Sofia ofrecía remedios naturales a quienes los necesitaban. Ximena, con su espíritu alegre, recolectaba conchas y jugaba en la orilla. A medida que pasaba el tiempo juntos, Ricardo, Sofia y Ximena aprendieron a apreciar y respetar las habilidades y perspectivas únicas de cada uno. Descubrieron que el respeto no solo significa tratar a los demás con amabilidad, sino también valorar sus diferencias y contribuciones. Al despedirse, se prometieron seguir compartiendo momentos juntos en la playa, recordando siempre la importancia de respetar y aceptar a todos, sin importar sus diferencias."
+}

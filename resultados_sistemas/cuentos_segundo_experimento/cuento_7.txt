@@ -1,0 +1,5 @@
+{
+    "titulo": "El Valor de la Diversidad",
+    "personajes": ["Juanita", "Fernanda", "Isabella"],
+    "contenido": "En un pequeño pueblo rodeado de montañas y ríos, vivían Juanita, una talentosa artesana, Fernanda, una niña con discapacidad visual, y Isabella, una apasionada defensora de los animales. A pesar de sus diferencias, compartían un profundo respeto y equidad entre sí. Juanita enseñaba a Fernanda a tejer y crear hermosas artesanías, mientras Fernanda admiraba la dedicación y paciencia de Juanita. Por otro lado, Isabella colaboraba con ellas, brindando su apoyo en la defensa de los animales y promoviendo la igualdad para todas las especies. Juntas, formaban un equipo único y diverso, donde cada una aportaba su propia perspectiva y habilidades. Aprendieron que la equidad no solo se trata de tratar a todos por igual, sino de valorar y celebrar las diferencias. Su amistad demostraba que la verdadera riqueza radica en la diversidad y el respeto mutuo."
+}

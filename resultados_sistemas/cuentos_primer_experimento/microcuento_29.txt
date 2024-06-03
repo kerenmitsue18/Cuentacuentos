@@ -1,0 +1,5 @@
+{
+"titulo": "El Tesoro de la Montaña",
+"personajes": ["Fernanda", "Isabella", "Carlos"],
+"contenido": "En lo profundo de la selva amazónica, Fernanda, Isabella y Carlos se aventuraron en busca del legendario tesoro escondido en la montaña. A pesar de los desafíos que enfrentaban, Fernanda guiaba con su aguda intuición, Isabella compartía historias sobre la belleza de la naturaleza y Carlos infundía energía con su espíritu intrépido. Juntos, se enfrentaron a las densas junglas y a los ríos salvajes, superando obstáculos que parecían insuperables. Durante su travesía, se encontraron con un anciano chamán que les reveló la verdadera naturaleza del tesoro: la tolerancia y la aceptación. Les explicó que cada uno de ellos poseía una habilidad única que, combinada con las de los demás, los hacía invencibles. Con este conocimiento en mente, continuaron su viaje con renovada determinación. Al final, no encontraron oro ni joyas, pero descubrieron algo mucho más valioso: el poder de la amistad y la diversidad. Regresaron a casa con corazones rebosantes de gratitud y una lección que nunca olvidarían: que la verdadera riqueza reside en la aceptación y el respeto mutuo." 
+}

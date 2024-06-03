@@ -1,0 +1,5 @@
+{
+    "titulo": "La Competencia Justa",
+    "personajes": ["Isabella", "Ricardo", "Andrés"],
+    "contenido": "En el torneo de pesca anual en la costa de México, Isabella, apasionada defensora de los animales, y Ricardo, un experimentado pescador, se enfrentaron en una competencia inusual. Mientras Ricardo lanzaba su anzuelo, Andrés, un niño valiente con una mano discapacitada, observaba desde la orilla. Con ingenio y determinación, Isabella persuadió a Ricardo para cambiar las reglas: cada pez capturado sería liberado nuevamente en el mar. Aunque inicialmente escéptico, Ricardo aceptó el desafío con un brillo de admiración en sus ojos. Juntos, pescaron con equidad y respeto por la naturaleza. Al final del día, el número de peces no importaba. Lo que realmente importaba era la amistad y la colaboración entre personas tan diferentes. Andrés, inspirado por la valentía de Isabella y la solidaridad de Ricardo, se unió a ellos en la orilla, demostrando que la verdadera competencia radica en el respeto mutuo y la igualdad de oportunidades, no en la diferencia física o habilidad."
+}
