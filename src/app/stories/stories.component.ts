@@ -104,10 +104,8 @@ export class Stories implements OnInit {
     for (let per of personajes) {
       for (let chara of characters) {
         per = per.replace(" ", "")
-        console.log(per)
         if (chara.nombre == per) {
           auxcharacters.push(chara)
-          console.log(auxcharacters)
         }
       }
     }

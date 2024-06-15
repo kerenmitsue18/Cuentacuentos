@@ -1,5 +1,9 @@
 {
-"titulo": "La Aventura en el Bosque de los Sentidos",
-"personajes": ["Fernanda", "Isabella", "Carlos"],
-"contenido": "En lo profundo del bosque de Oaxaca, Fernanda guiaba con destreza a sus amigos Isabella y Carlos. A pesar de la oscuridad que envolvía sus ojos, ella percibía el mundo de una manera única, con la ayuda de sus otros sentidos agudizados. Isabella, con su amor por los animales, identificaba cada sonido de la naturaleza, desde el suave susurro del viento hasta el canto alegre de los pájaros. Carlos, con su espíritu aventurero, exploraba cada textura del bosque, desde la rugosidad del tronco de un árbol hasta la suavidad de una hoja. Juntos, descubrieron un mundo lleno de maravillas sensoriales. En su viaje, encontraron un arroyo donde el sonido del agua bailaba en sus oídos, una pradera donde el aroma de las flores perfumaba el aire y un claro donde la suave brisa acariciaba sus mejillas. A medida que avanzaban, aprendían a apreciar las diferencias y a entender que la verdadera belleza radicaba en la diversidad. En ese bosque de los sentidos, la tolerancia florecía como las flores silvestres, mostrándoles que, aunque veamos el mundo de manera diferente, todos compartimos la misma tierra y el mismo corazón." 
+  "titulo": "El Puente de la Amistad",
+  "personajes": ["Fernanda", "Andrés", "Carlos"],
+  "contenido": "En el colorido mercado de Otavalo, Fernanda y Andrés se encontraron con Carlos, un aventurero que había llegado de Puerto Rico. Decidieron explorar juntos el famoso puente de Intiñán, que cruza la línea ecuatorial. 
+Carlos, con su energía contagiosa, lideraba la expedición, señalando cada detalle interesante. Andrés, siempre optimista, sugirió que todos dibujaran lo que veían. Fernanda, sonriente, se encargó de elegir los colores más vivos para sus dibujos.
+Mientras dibujaban, un grupo de niños locales se acercó. Algunos se burlaron de la manera en que Andrés sostenía el lápiz y del silencio en que Fernanda se comunicaba. Carlos, con su espíritu de líder, los invitó a unirse y les explicó cómo cada uno tenía su propia manera especial de hacer las cosas.
+Pronto, todos estaban dibujando y compartiendo risas, aprendiendo de las diferencias y apreciando las habilidades únicas de cada uno. El puente de Intiñán no solo conectaba dos hemisferios, sino que también unía corazones de diferentes partes del mundo.
+De esa aventura, los niños entendieron que la tolerancia y la amistad pueden construir puentes más fuertes que cualquier estructura física."
 }

@@ -1,5 +1,8 @@
 {
-"titulo":"El Jardín de los Sentidos",
-"personajes":["Fernanda","Isabella","Carlos"],
-"contenido":"En un pequeño pueblo rodeado de montañas, se encontraba el misterioso 'Jardín de los Sentidos'. Fernanda, con sus lentes de botella, anhelaba explorarlo. Isabella, con su mochila repleta de esencias naturales, y Carlos, con su espíritu aventurero, aceptaron el desafío. Al entrar, un aroma a flores y tierra húmeda los envolvió, mientras el suave murmullo del arroyo los guiaba. Fernanda, con su aguda percepción, sintió cada textura bajo sus dedos, mientras Isabella identificaba las plantas por su aroma. Carlos, con sus ojos curiosos, describía el paisaje con detalle. Juntos, descubrieron un mundo donde la discapacidad de Fernanda se volvía irrelevante. Cada uno contribuía con sus habilidades únicas, formando un equipo imparable. En ese jardín, aprendieron que la tolerancia no es solo aceptar las diferencias, sino celebrarlas y utilizarlas para enriquecerse mutuamente. Al salir, llevaban consigo la lección de que, en la diversidad, radica la verdadera belleza del mundo." 
+  "titulo": "El Tesoro del Bosque Encantado",
+  "personajes": ["Andrés", "Fernanda", "Carlos"],
+  "contenido": "En las profundidades del Bosque Encantado de Mindo, Andrés, Fernanda y Carlos se aventuraron en busca de un tesoro legendario. Andrés, con su habilidad y valentía, lideraba el camino, seguido por Fernanda, siempre curiosa y decidida. Carlos, el aventurero puertorriqueño, con su energía contagiosa, animaba al grupo en cada paso del camino.
+Entre los árboles centenarios y las cascadas cristalinas, encontraron la cueva del tesoro. Pero para abrir la puerta mágica, necesitaban resolver un enigma musical. Fernanda, con su sensibilidad y conocimiento del lenguaje de señas, interpretó las melodías ancestrales talladas en las piedras.
+Andrés, usando su única mano con destreza, activó los mecanismos ocultos. La puerta se abrió lentamente, revelando un cofre lleno de joyas brillantes y antiguos pergaminos. Juntos, aprendieron que la verdadera riqueza radica en la amistad y la colaboración, sin importar las diferencias que los hacen únicos.
+Al salir del bosque, llevaban consigo un mensaje de tolerancia y aceptación hacia las habilidades distintas de cada uno."
 }

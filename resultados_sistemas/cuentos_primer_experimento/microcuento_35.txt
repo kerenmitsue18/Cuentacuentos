@@ -1,5 +1,8 @@
 {
-"titulo": "El Misterio de la Casa Encantada",
-"personajes": ["Fernanda", "Isabella", "Carlos"],
-"contenido": "En un pequeño pueblo de México, se alzaba una antigua casa rodeada de misterio y leyendas. Fernanda, con sus lentes de botella, siempre había sentido curiosidad por descubrir qué secretos guardaba aquel lugar. Una tarde, mientras paseaba por las calles empedradas, se encontró con Isabella, quien también estaba intrigada por la casa. Juntas, decidieron explorarla. Mientras tanto, Carlos, el aventurero, se unió al grupo con entusiasmo. Al entrar en la casa, descubrieron que estaba habitada por una familia con un miembro con discapacidad. La niña, aunque ciega, tenía un don especial para comunicarse con los animales que habitaban el lugar. Isabella quedó fascinada por su conexión con la naturaleza, mientras Fernanda admiraba su valentía y determinación para superar los desafíos. Carlos, por su parte, los guiaba con su espíritu aventurero. Juntos, ayudaron a la familia a resolver el misterio que envolvía la casa y demostraron que la verdadera magia reside en la tolerancia y el respeto hacia aquellos que son diferentes. Al final, se despidieron con la certeza de que la diversidad es lo que hace que el mundo sea un lugar más hermoso y emocionante."},
+  "titulo": "El Secreto del Bosque Encantado",
+  "personajes": ["Andrés", "Fernanda", "Carlos"],
+  "contenido": "En lo profundo de la selva amazónica, Andrés, Fernanda y Carlos descubrieron un bosque mágico lleno de criaturas extraordinarias. Andrés, con su valentía y espíritu alegre, guiaba al grupo con determinación. Fernanda, siempre curiosa y empática, descifraba los susurros del viento y los trinos de los pájaros.
+Una tarde, mientras exploraban, encontraron una puerta escondida entre las enredaderas. Intrigados, la abrieron y descubrieron un jardín de flores multicolores donde las mariposas bailaban al compás de una melodía misteriosa.
+Carlos, con su energía y curiosidad, invitó a todos a unirse al baile. Fernanda, con su sonrisa luminosa, siguió el ritmo con gracia, mientras Andrés, con habilidad y destreza, tocaba tambores invisibles con su única mano.
+En ese bosque encantado, aprendieron que la verdadera magia está en aceptar las diferencias y celebrar la diversidad. Cada uno, con sus talentos únicos, hizo del bosque un lugar más hermoso y especial."
 }

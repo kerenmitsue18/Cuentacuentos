@@ -1,5 +1,5 @@
 export const environment = {
-    openaiApiKey: /** INGRESA API KEY AQUI **/,
+    openaiApiKey: "",
     production: false
 };
 

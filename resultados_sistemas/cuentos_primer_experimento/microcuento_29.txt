@@ -1,5 +1,8 @@
 {
-"titulo": "El Tesoro de la Montaña",
-"personajes": ["Fernanda", "Isabella", "Carlos"],
-"contenido": "En lo profundo de la selva amazónica, Fernanda, Isabella y Carlos se aventuraron en busca del legendario tesoro escondido en la montaña. A pesar de los desafíos que enfrentaban, Fernanda guiaba con su aguda intuición, Isabella compartía historias sobre la belleza de la naturaleza y Carlos infundía energía con su espíritu intrépido. Juntos, se enfrentaron a las densas junglas y a los ríos salvajes, superando obstáculos que parecían insuperables. Durante su travesía, se encontraron con un anciano chamán que les reveló la verdadera naturaleza del tesoro: la tolerancia y la aceptación. Les explicó que cada uno de ellos poseía una habilidad única que, combinada con las de los demás, los hacía invencibles. Con este conocimiento en mente, continuaron su viaje con renovada determinación. Al final, no encontraron oro ni joyas, pero descubrieron algo mucho más valioso: el poder de la amistad y la diversidad. Regresaron a casa con corazones rebosantes de gratitud y una lección que nunca olvidarían: que la verdadera riqueza reside en la aceptación y el respeto mutuo." 
+  "titulo": "El Secreto del Bosque Encantado",
+  "personajes": ["Andrés", "Fernanda", "Carlos"],
+  "contenido": "En las profundidades del Bosque Encantado de Mindo, Andrés, Fernanda y Carlos descubrieron un misterioso camino cubierto de hojas doradas. Andrés, con su aguda observación, notó huellas de animales que los guiaron hacia una cascada oculta.
+Fernanda, con su sonrisa llena de curiosidad, señaló con entusiasmo una cueva tallada en la roca. Carlos, siempre valiente y dispuesto a explorar, los animó a entrar. Dentro, descubrieron antiguas pinturas rupestres que relataban historias de paz y convivencia entre diferentes tribus.
+Al salir de la cueva, encontraron un grupo de aves tropicales danzando al ritmo del viento. Andrés, Fernanda y Carlos se miraron con admiración, entendiendo que cada uno, con sus habilidades únicas, había contribuido a descubrir el secreto del bosque.
+En Mindo, aprendieron que la verdadera magia reside en la diversidad y la colaboración. Andrés, Fernanda y Carlos guardaron en sus corazones la lección de que la tolerancia es la llave que abre puertas hacia un mundo más colorido y lleno de sorpresas."
 }
