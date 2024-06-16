@@ -1,5 +1,8 @@
 {
-    "titulo": "El Bosque Encantado",
-    "personajes": ["Isabella", "Ximena", "Tita"],
-    "contenido": "En el corazón de un bosque misterioso, Isabella, una apasionada animalista, Ximena, una niña con síndrome de down, y Tita, una aventurera tortuga, se encontraron. Juntas, exploraron los senderos verdes, admirando la belleza de la naturaleza que las rodeaba. Isabella enseñó a Ximena sobre la importancia de cuidar a los animales, mientras Tita les mostraba los secretos escondidos del bosque. De repente, encontraron un río contaminado, donde los peces luchaban por sobrevivir. Con determinación, Isabella lideró la limpieza del río, mientras Ximena y Tita ayudaban con entusiasmo. Al final del día, el río volvió a brillar con vida. La lección resonó en sus corazones: el cuidado del medio ambiente es responsabilidad de todos, sin importar nuestras diferencias. Juntas, demostraron que la tolerancia y la colaboración pueden salvar nuestro mundo."
+  "titulo": "El Bosque Encantado",
+  "personajes": ["Isabella", "Ximena", "Tita"],
+  "contenido": "En lo profundo del bosque mexicano, Isabella y Ximena exploraban entre árboles antiguos y senderos serpenteantes. Isabella, con su amor por los animales, encontró a Tita, una tortuga de tierra que parecía haberse perdido. Ximena, con su sonrisa luminosa, acarició su caparazón y sus ojos brillaron de alegría al hacerle cosquillas con su dedo.
+Tita, curiosa y aventurera, guió a las niñas a través del bosque hacia un claro lleno de flores vibrantes y mariposas danzantes. Isabella, emocionada por la belleza de la naturaleza que protege, habló de la importancia de cuidar los bosques y las criaturas que en ellos viven. Ximena, con su dulzura innata, escuchó atentamente, asintiendo con entusiasmo.
+Juntas, las tres amigas compartieron historias sobre la magia del bosque y cómo cada criatura, grande o pequeña, era parte de un delicado equilibrio. Tita les mostró con su ejemplo cómo ser valientes y explorar el mundo con respeto y cuidado.
+Al final del día, mientras el sol se ocultaba entre los árboles, las niñas entendieron que proteger la naturaleza no solo es un deber, sino una aventura llena de descubrimientos y amistad."
 }

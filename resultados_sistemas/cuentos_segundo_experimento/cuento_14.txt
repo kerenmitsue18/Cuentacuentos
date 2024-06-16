@@ -1,5 +1,7 @@
 {
-    "titulo": "El Jardín de la Comunidad",
-    "personajes": ["Andrés", "Diego", "Sofia"],
-    "contenido": "En el corazón de un pueblo mexicano, Andrés, Diego y Sofía cuidaban juntos el jardín de la comunidad. A pesar de sus diferencias, se respetaban mutuamente. Andrés, con una mano menos, plantaba con determinación. Diego, transgénero, regaba con amor y creatividad. Sofía, la curandera, cuidaba las plantas con sabiduría ancestral. Un día, una tormenta amenazó con destruir su querido jardín. Unidos, enfrentaron el desafío. Andrés protegió las plantas con su cuerpo. Diego utilizó sus habilidades artísticas para construir refugios improvisados. Sofía calmó la tormenta con sus conocimientos sobre la naturaleza. Al final, el jardín sobrevivió, más fuerte que nunca. Aprendieron que el respeto por las diferencias es la base de la verdadera comunidad, donde cada uno aporta su singularidad para el bien común."
+  "titulo": "El Encuentro de los Tesoros Ancestrales",
+  "personajes": ["Andrés", "Diego", "Sofía"],
+  "contenido": "En un pequeño pueblo costero de Cuba, Andrés, el niño ecuatoriano con amputación de brazo, se encontró con Diego, el entusiasta historiador jamaicano, durante una visita a la biblioteca local. Mientras Diego investigaba sobre las leyendas de los tesoros perdidos de la región, Sofía, la sabia curandera cubana, los escuchaba con interés desde una esquina, atrapada por las historias de antaño.
+Diego, impresionado por la habilidad de Andrés para manejar libros y anotaciones con una sola mano, decidió invitarlo a unirse a su próxima expedición. Sofía, con su profundo respeto por la naturaleza y las tradiciones, bendijo su unión con un amuleto de protección.
+Juntos exploraron cuevas antiguas y leyendas olvidadas, compartiendo conocimientos y descubriendo la riqueza de la historia y la diversidad de sus habilidades. A lo largo de su viaje, aprendieron a valorar y respetar las fortalezas únicas de cada uno, encontrando en su diversidad el verdadero tesoro: la amistad y el entendimiento mutuo."
 }

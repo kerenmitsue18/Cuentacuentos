@@ -1,5 +1,8 @@
 {
-    "titulo": "El Respeto en la Playa",
-    "personajes": ["Ricardo", "Sofia", "Ximena"],
-    "contenido": "En una tranquila playa mexicana, Ricardo el pescador, Sofia la curandera y Ximena, una niña con síndrome de Down, se encontraron frente al mar al atardecer. Ricardo compartía historias de sus aventuras en alta mar, mientras Sofia ofrecía remedios naturales a quienes los necesitaban. Ximena, con su espíritu alegre, recolectaba conchas y jugaba en la orilla. A medida que pasaba el tiempo juntos, Ricardo, Sofia y Ximena aprendieron a apreciar y respetar las habilidades y perspectivas únicas de cada uno. Descubrieron que el respeto no solo significa tratar a los demás con amabilidad, sino también valorar sus diferencias y contribuciones. Al despedirse, se prometieron seguir compartiendo momentos juntos en la playa, recordando siempre la importancia de respetar y aceptar a todos, sin importar sus diferencias."
+  "titulo": "El Jardín de las Mariposas",
+  "personajes": ["Ricardo", "Sofía", "Ximena"],
+  "contenido": "En un rincón tranquilo del pueblo costero colombiano de Palomino, vivía Ricardo, un joven pescador apasionado por el mar y sus misterios. Un día, mientras reparaba su red en la playa, escuchó risas y murmullos que provenían del jardín de Sofía, la curandera cubana conocida por sus remedios naturales y su profundo respeto por la vida.
+Ximena, una niña mexicana con síndrome de Down, exploraba el jardín mariposas con admiración y alegría. Fascinada por los colores vibrantes de las flores y las alas delicadas de las mariposas que revoloteaban, extendió sus brazos con entusiasmo, atrayendo la atención de Ricardo y Sofía.
+Sofía, con su sabiduría y comprensión, se acercó con delicadeza y cariño. Explicó a Ricardo sobre la sensibilidad de Ximena y cómo cada visita al jardín era un momento especial para ella. Ricardo asintió con respeto, admirando la alegría pura y la curiosidad de Ximena.
+Desde entonces, Ricardo, Sofía y Ximena compartieron momentos en el jardín, aprendiendo unos de otros. Cada encuentro fortaleció su vínculo de respeto mutuo y admiración por las diferencias que enriquecían sus vidas."
 }

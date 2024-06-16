@@ -1,5 +1,8 @@
 {
-    "titulo": "El Secreto del Bosque Encantado",
-    "personajes": ["Ximena", "Sofia", "Carlos"],
-    "contenido": "Ximena, una niña alegre y valiente, exploraba el bosque cerca de su pueblo mexicano. Un día, se perdió entre los árboles frondosos. A medida que caía la noche, Ximena se sintió asustada y sola. Entonces, vio una luz brillante entre las ramas. Siguió el resplandor hasta encontrar a Sofía, la curandera del pueblo, quien la acogió con amabilidad. Sofia le explicó que el bosque era un tesoro natural que merecía respeto y cuidado. Juntas, recolectaron hojas caídas y recogieron la basura esparcida. Carlos, un aventurero intrépido, se unió a ellas y compartió historias sobre la belleza del bosque. Ximena comprendió que cada acción cuenta para proteger la naturaleza. Al amanecer, encontraron el camino de regreso al pueblo. Ximena prometió cuidar el bosque y compartir su importancia con todos. Desde entonces, el bosque encantado floreció con la esperanza de un futuro más verde y brillante."
+  "titulo": "El Jardín Secreto",
+  "personajes": ["Ximena", "Sofía", "Carlos"],
+  "contenido": "En lo profundo de la selva mexicana, Ximena, una niña con síndrome de Down, descubrió un jardín oculto lleno de mariposas de colores brillantes. Fascinada por la belleza de la naturaleza, cuidaba con amor cada planta y animal que habitaba allí.
+Un día, llegó Sofía, una curandera cubana que había oído hablar de este lugar mágico. Con su sabiduría ancestral, enseñó a Ximena sobre las propiedades curativas de las plantas y cómo respetar el equilibrio natural del jardín. Juntas, crearon rituales de sanación que fortalecían el vínculo entre el hombre y la naturaleza.
+Carlos, el intrépido aventurero puertorriqueño, se unió a ellas en su misión de proteger el jardín. Con su entusiasmo contagioso, organizó jornadas de limpieza para mantener el entorno libre de contaminación. Inspirados por su liderazgo, los habitantes del pueblo cercano se unieron para apoyar la causa.
+Así, Ximena, Sofía y Carlos demostraron que la equidad con la naturaleza es fundamental para preservar la belleza y la armonía del mundo que nos rodea."
 }

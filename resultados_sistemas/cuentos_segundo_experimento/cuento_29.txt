@@ -1,5 +1,8 @@
 {
-    "titulo": "El Tesoro del Respeto",
-    "personajes": ["Ricardo", "Sofia", "Ximena"],
-    "contenido": "En un pequeño pueblo pesquero junto al mar, vivía Ricardo, un pescador experimentado conocido por su respeto hacia el océano y sus criaturas. Un día, mientras reparaba su bote, encontró a Ximena, una niña con síndrome de Down, y a Sofia, la curandera del pueblo, en la playa. Ximena recogía conchas marinas mientras Sofia recolectaba hierbas medicinales. Impresionado por su conexión con la naturaleza, Ricardo les contó historias sobre la importancia del respeto por el mar y la tierra. Juntos, decidieron limpiar la playa de desechos, demostrando que el respeto hacia el medio ambiente es esencial para la supervivencia de todos. Al final del día, encontraron un cofre enterrado en la arena, no con monedas de oro, sino con la gratitud del océano y la tierra por su acto de bondad y respeto. Desde entonces, el pueblo aprendió a valorar y proteger su entorno, recordando siempre el tesoro más preciado: el respeto hacia la naturaleza y entre ellos mismos."
+  "titulo": "El Tesoro del Mar",
+  "personajes": ["Ricardo", "Sofía", "Ximena"],
+  "contenido": "En las costas de Colombia, Ricardo el pescador zarandeaba su pequeña embarcación al ritmo de las olas danzantes del Caribe. A su lado, Sofía la curandera observaba con admiración mientras preparaba remedios con hierbas recogidas en la orilla. En la playa, Ximena jugaba entre la arena dorada, su risa resonando como campanas alegres. 
+Una mañana, Ricardo descubrió algo peculiar en su red: una botella de vidrio con un mensaje en su interior. Con cuidado, extrajo el papel y leyó las palabras escritas por un niño desconocido que buscaba amigos para jugar. Movido por el mensaje de amistad, Ricardo decidió responder colocando otro mensaje dentro de la botella y lanzándola de nuevo al mar.
+Días después, una respuesta llegó a la costa. Era de Ximena, quien había encontrado la botella mientras exploraba con su familia. Con la ayuda de Sofía, Ricardo y Ximena comenzaron una correspondencia en la que compartían historias y sueños.
+Este cuento nos enseña que el respeto por los demás y por la naturaleza crea lazos que trascienden las diferencias. Cada gesto de amabilidad y comprensión es como un tesoro que encontramos en el mar de la vida."
 }

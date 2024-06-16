@@ -1,5 +1,7 @@
 {
-    "titulo": "El Viaje de las Luces",
-    "personajes": ["Fernanda", "Tita", "Omar"],
-    "contenido": "En una noche estrellada, Fernanda, Tita y Omar se aventuraron en el bosque con una misión especial: recolectar luciérnagas. Fernanda, con su aguda empatía, guiaba a Tita, quien exploraba con curiosidad cada rincón en busca de las luces titilantes. Omar, con su sonrisa luminosa, recogía con cuidado cada pequeña luciérnaga que encontraban. Juntos, formaban un equipo unido por el respeto y amor hacia la naturaleza. Mientras caminaban, Fernanda narraba historias sobre la importancia de conservar el medio ambiente, inspirando a Tita y Omar a proteger cada ser vivo. Al final de la noche, con frascos llenos de luces mágicas, regresaron a casa con el corazón rebosante de gratitud. En ese momento, comprendieron que cada pequeño gesto de cuidado hacia el medio ambiente ilumina el mundo con esperanza y alegría."
+  "titulo": "El Jardín Secreto de las Estrellas",
+  "personajes": ["Fernanda", "Tita", "Omar"],
+  "contenido": "En un rincón escondido del bosque ecuatoriano, Fernanda y Tita la tortuga se encontraron con Omar, el niño cubano ciego. Tita, siempre curiosa y exploradora, les había llevado hasta un jardín mágico lleno de estrellas fluorescentes que brillaban en la oscuridad. Fernanda, con su determinación y empatía, describía con gestos las formas y colores de las flores que rodeaban el jardín.
+Omar, aunque no podía ver, percibía el brillo de las estrellas con su agudo sentido del oído y del tacto. Juntos, decidieron cuidar este tesoro natural y protegerlo de cualquier daño. Omar sugirió crear senderos sensoriales para que todos pudieran experimentar la belleza del jardín, guiándose por el aroma de las flores y la suavidad de las hojas.
+Con el tiempo, el jardín se convirtió en un lugar especial para la comunidad, donde la naturaleza era respetada y admirada. Las estrellas brillaban como símbolo de la magia que surge cuando cuidamos nuestro entorno con amor y sensibilidad."
 }

@@ -1,5 +1,7 @@
 {
-    "titulo": "La Lección de Tolerancia",
-    "personajes": ["Tita", "Andrés", "Ricardo"],
-    "contenido": "En una tranquila playa mexicana, Tita la tortuga, Andrés el niño y Ricardo el pescador se encontraron. Tita, siempre curiosa, preguntó a Andrés sobre su mano. Con una sonrisa, Andrés explicó cómo había aprendido a vivir con su discapacidad. Ricardo compartió historias de sus aventuras en el mar. Admirada por su valentía, Tita propuso una carrera. Aunque Andrés tenía una desventaja física, Tita lo alentó a correr junto a ellos. Mientras la carrera avanzaba, Tita y Ricardo observaron admirados cómo Andrés demostraba determinación y perseverancia. Finalmente, Andrés cruzó la línea de meta, recibiendo aplausos y admiración. Tita, Ricardo y Andrés aprendieron que el respeto no se basa en la apariencia, sino en la valentía y el espíritu. Juntos, celebraron su amistad y la lección de tolerancia que habían aprendido en la playa esa tarde."
+  "titulo": "El Secreto del Arrecife",
+  "personajes": ["Tita", "Andrés", "Ricardo"],
+  "contenido": "En las profundidades del océano Pacífico, cerca de las costas ecuatorianas, yace un arrecife de coral lleno de misterios y maravillas. Tita, la tortuga aventurera de caparazón robusto y patas firmes, exploraba con curiosidad cada rincón del arrecife. A su lado nadaba Andrés, el niño ecuatoriano con un brazo amputado, mostrando una valentía que inspiraba a todos los habitantes marinos. Juntos, descubrían la belleza oculta del océano.
+Un día, durante una de sus exploraciones, encontraron a Ricardo, el joven pescador colombiano, con su gorra de paja y mirada reflexiva. Ricardo les contó historias de su vida en el mar y compartió sus conocimientos sobre la pesca sostenible. Tita, Andrés y Ricardo aprendieron a respetar el equilibrio natural del arrecife y a cuidar de las criaturas que lo habitaban.
+En ese arrecife, la diversidad se celebraba y la amistad se fortalecía bajo el agua. Descubrieron que el verdadero respeto viene del entendimiento y la colaboración, donde cada uno aporta con sus habilidades únicas para proteger nuestro precioso planeta."
 }
