@@ -42,7 +42,7 @@ Una vez seleccionados los parámetros, el sistema genera el prompt correspondien
             Crea un ${this.tipo_cuento.nombre} de ${this.tipo_cuento.descripcion} sobre el tema ${this.topic.nombre} en el que participen los siguientes personajes:
             ${this.getCharacters()}. \n 
             
-        xConsideraciones para el cuento: 
+        Consideraciones para el cuento: 
 
         - El cuento debe ser original, por favor, esfuérzate en que no se repitan los cuentas. 
         - Si hay personajes con alguna discapacidad, asegúrate de que sean los protagonistas. Enfoca la atención en ellos para que la trama del cuento resalte el valor de ${this.topic.nombre} hacia los personajes con discapacidad.
