@@ -30,7 +30,7 @@ El sistema cuenta con una estructura general de un prompt adecuado que orienta a
 | ------------- | ------------------------------ |
 | `Tipo de cuento`      | Se refiere a la extensión del cuento. Este puede ser microcuento (menos de 200 palabras), cuento flash (200 - 700 palabras)  o cuento corto (700 a 2,000 palabras)     |
 | `Personajes`   |  Se refiere a las características físicas y de personalidad de cada uno de los personajes. Cada historis puede tener un máximo de tres personajes.  |
-| `Tema`   | Se trata del contexto o tema en el que se desarrollará la historia. Puedes elegir entre respeto, tolerancia, equidad y cuidado del medio ambiente.    |
+| `Tema`   | Se trata del contexto o tema en el que se desarrollará la historia. Puedes elegir entre el respeto, la tolerancia, la equidad y cuidado del medio ambiente.    |
 
 Una vez seleccionados los parámetros, el sistema genera el prompt correspondiente para ingresarlo a la IA generativa. 
 
