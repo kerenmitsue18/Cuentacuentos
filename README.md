@@ -20,7 +20,7 @@ de voz, entonación, velocidad y calidad de pronunciación. El sistema crea hist
 
 
 ## Tecnologías empleada 
-<p align="center">
+<p align="left">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=ts,angular" />
   </a>
