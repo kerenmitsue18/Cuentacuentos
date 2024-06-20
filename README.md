@@ -18,6 +18,10 @@ de voz, entonación, velocidad y calidad de pronunciación. El sistema crea hist
 - Evaluación de la entonación, velocidad y calidad de pronunciación en las narrativas de los cuentos.
 - Proporcionar el ***código fuente*** y los archivos complementarios para fines no comerciales.
 
+
+## Tecnologías empleada 
+typeScript, angular, openAI
+
 ## Metodología aplicada
 
 
@@ -26,6 +30,7 @@ A continuación se muestra un resumen gráfico de la metodología empleada.
 <img src="https://github.com/kerenmitsue18/Cuentacuentos/blob/master/Diagrama_cuentacuentos.png" alt="Metodología aplicada" width="550px" align="center">
 
 El sistema cuenta con una estructura general de un prompt adecuado que orienta al sistema hacia la generación de resultados coherentes. Por lo que se definieron tres elementos fundamentales de dicha estructura, que el usuario puede personalizar. Los parámetros son los siguientes: 
+
 | Parámetro | Descripción                    |
 | ------------- | ------------------------------ |
 | `Tipo de cuento`      | Se refiere a la extensión del cuento. Este puede ser microcuento (menos de 200 palabras), cuento flash (200 - 700 palabras)  o cuento corto (700 a 2,000 palabras)     |
