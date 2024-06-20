@@ -20,8 +20,11 @@ de voz, entonación, velocidad y calidad de pronunciación. El sistema crea hist
 
 
 ## Tecnologías empleada 
-typeScript, angular, openAI
-
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=ts,angular" />
+  </a>
+</p>
 ## Metodología aplicada
 
 
