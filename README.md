@@ -19,7 +19,7 @@ de voz, entonación, velocidad y calidad de pronunciación. El sistema crea hist
 - Proporcionar el ***código fuente*** y los archivos complementarios para fines no comerciales.
 
 
-## Tecnologías empleada 
+## Tecnologías empleadas
 <p align="left">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=ts,angular" />
