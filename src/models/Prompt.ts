@@ -23,7 +23,7 @@ export class Prompt {
             
         Consideraciones para el cuento: 
 
-        - El cuento debe ser original, por favor, esfuérzate en que no se repitan los cuentas. 
+        - El cuento debe ser original, por favor, esfuérzate en que no se repitan los cuentos. 
         - Si hay personajes con alguna discapacidad, asegúrate de que sean los protagonistas. Enfoca la atención en ellos para que la trama del cuento resalte el valor de ${this.topic.nombre} hacia los personajes con discapacidad.
         - Evita colocar en el cuento la descripción física y de personalidad de los personajes,solo menciona implicitamente cual es la discapacidad del personaje, si así lo tuvieran.
         - El contexto en el que se desarrollan los personajes debe ser ambientado en la nacionalidad del protagonista o los protagonistas, ya sean lugares turísticos, pueblos, costumbres, cultura, ideologías, economia, etc.Se especifico en el lugar en el que se encuentran, puedes mencionar nombre de los lugares. 

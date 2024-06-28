@@ -31,7 +31,7 @@ export const characters: Character[] = [
     false),
 
 
-    new Character("10", 'Fernanda','Ecuatoriana', 'Niña sorda',
+    new Character("10", 'Fernanda','Ecuatoriana', 'Nació con sordera',
         'Niña ecuatoriana, tiene cabello largo y rizado de color negro que cae hasta debajo de sus hombros.  Su rostro es de forma ovalada y siempre muestra una sonrisa cálida. Viste con vestidos de colores vivos de ecuador.',
         'Determinada y valiente. Curiosa e inquisitiva. Empática y amigable. Inspiradora y resiliente.',
         '../assets/src/fernanda.jpg',
@@ -50,7 +50,7 @@ export const characters: Character[] = [
         false),
 
 
-    new Character("11", 'Andrés','Ecuatoriana','Niño con amputación de brazo',
+    new Character("11", 'Andrés','Ecuatoriana','Perdió una mano a los 3 años',
         'Niño ecuatoriano, tiene el cabello corto y lacio de color castaño oscuro. Sus ojos son marrones y su piel es de tono canela. Su brazo izquierdo ha sido amputado a la altura del codo y no utiliza prótesis. Suele vestir con ropa casual, como camisetas y jeans, y prefiere colores neutros y cómodos.',
         'Valentía. Optimista y alegre. Empático y solidario. Amistoso y cariñoso. Independiente y decidido. Voluntad inquebrantable de participar plenamente en todas las actividades que le interesan. Utilizando su mano derecha y aprendiendo técnicas que le permiten realizar tareas y juegos con habilidad. Su sentido del humor y su sonrisa contagiosa son señales de su aceptación y confianza en sí mismo',
         '../assets/src/andres.jpg',
@@ -58,7 +58,7 @@ export const characters: Character[] = [
     new Character("2", 'Carlos','Puertorriqueña', 'Aventurero',
         'Niño puertorriqueño aventurero, tiene el cabello corto, rizado de color negro intenso, y desordenado. Sus ojos son grandes y de un marrón profundo. Su piel es de un tono cálido y dorado, bronceada por el sol tropical. Tiene una sonrisa mostrando sus dientes blancos. Viste con ropa cómoda y funcional para sus aventuras: camiseta colorida con estampados de animales o superhéroes, pantalones cortos  y zapatos deportivos.',
         '• Niño intrépido y lleno de energía. Curiosos y con espíritu explorador. Valiente y dispuesto a los desafíos. Inspirador para otros con entusiasmo contagioso. Líder natural que guía en momentos difíciles. Descubre el mundo y su propio crecimiento personal.',
-        '../assets/src/carlos.jpg',
+        '../assets/src/carlos.png',
         false),
 
     new Character("3", 'Sofía', 'Cubana', 'Curandera',
@@ -94,7 +94,7 @@ export const characters: Character[] = [
     new Character("8", 'Omar', 'Cubana','Niño con ceguera',
         'Niño cubano con ceguera, tiene el cabello corto y oscuro. Sus ojos, aunque no pueden ver, tienen una expresión tranquila y profunda. Su piel es de un tono cálido y dorado. Suele vestir con ropa cómoda y práctica, como camisetas sueltas y pantalones o shorts. A menudo lleva consigo un perro guía que le ayuda a desplazarse con seguridad por su entorno.',
         'Alegre y optimista. Determinado y valiente. Empático y compresivo. Creativo y curioso. Se mueve con confianza gracias a su habilidad para orientarse usando otros sentidos, como el oído y el tacto. Tiene la capacidad para adaptarse, inspirando a otros con su valentía y actitud positiva ante los desafíos',
-        '../assets/src/omar.jpg',
+        '../assets/src/Omar.png',
         false),
         
 ];
